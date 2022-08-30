@@ -42,12 +42,15 @@ if __name__ == '__main__':
     url = srcHelper.get_runs_for_game_category(game_id, game_category)
     while url is not None:
         res = srcHelper.request_src(url)
-        print(json.dumps(res, indent=4, sort_keys=True))
         for run in res['data']:
             # get date of verified so we can compare if we've already seen this run
             verified_date = dt.strptime(run['status']['verify-date'], '%Y-%m-%dT%H:%M:%SZ')
             if verified_date > last_ran_date:
-                print(verified_date)
+                time = run['times']['primary_t']
+                runner_url = run['players'][0]['uri']
+                player_id = run['players'][0]['id']
+                player_res = srcHelper.request_src(runner_url)
+                player_name = player_res['data']['names']['international']
             else:
                 url = None
         # if the last run of page isn't before the last time this ran, keep paginating
