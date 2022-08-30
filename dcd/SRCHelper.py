@@ -29,13 +29,6 @@ def get_romhacks():
     return f'https://www.speedrun.com/api/v1/series/0499o64v/games?max=200'
 
 
-def get_player_profile_url(player_id):
-    return f'http://stats.nba.com/stats/commonplayerinfo/?playerId={player_id}'
-
-
-def get_box_score_url(game_id):
-    return f'https://stats.nba.com/stats/BoxScoreScoringV2/?GameID={game_id}&StartPeriod=0&EndPeriod=14'
-
 
 # requests
 def request_src(url):
@@ -65,7 +58,7 @@ def request_src(url):
     if err_cnt >= err_lim:
         print(f"err_cnt greater than err_limit {err_cnt} >= {err_lim}")
         raise requests.exceptions.RequestException
-    # sleep so we dont' get banned by requesting too much, .1,.2 give errors after doing a few hundred
+    # sleep so we don't get banned by requesting too much, .1,.2 give errors after doing a few hundred
     time.sleep(_sleep_period)
     if resp is not None and resp.status_code == 200:
         return resp.json()
