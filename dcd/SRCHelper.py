@@ -2,6 +2,7 @@ import time
 
 import requests
 
+# stole these from firefox, default headers were redirecting too many times
 _HEADERS = {
     'Host': 'www.speedrun.com',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0',
@@ -21,13 +22,16 @@ _retry_sleep = 30
 
 
 # url help
+def get_runs_for_game_category(game_id, category):
+    return f'https://www.speedrun.com/api/v1/runs?game={game_id}&category={category}&status=verified&orderby=verify-date&direction=desc'
+
+
 def get_runs_for_game(game_id):
     return f'https://www.speedrun.com/api/v1/runs?game={game_id}&status=verified&orderby=verify-date&direction=desc'
 
 
 def get_romhacks():
     return f'https://www.speedrun.com/api/v1/series/0499o64v/games?max=200'
-
 
 
 # requests

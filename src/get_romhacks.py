@@ -7,12 +7,8 @@ if __name__ == '__main__':
     url = srcHelper.get_romhacks()
     while url is not None:
         res = srcHelper.request_src(url)
-        print(json.dumps(res, indent=4, sort_keys=True))
         for game in res['data']:
-            game_json = {}
-            game_json['name'] = game['names']['international']
-            game_json['id'] = game['id']
-            game_json['abbreviation'] = game['abbreviation']
+            game_json = {'name': game['names']['international'], 'id': game['id'], 'abbreviation': game['abbreviation']}
             for link in game['links']:
                 if link['rel']=='categories':
                     cat_res = srcHelper.request_src(link['uri'])
