@@ -843,7 +843,9 @@
         "categories": {
             "75 Star": "vdon6n1k",
             "40 Star": "wkprpr02",
-            "0 Star": "7dg7z7xd"
+            "0 Star": "7dg7z7xd",
+            "Single Stars": "vdon086k",
+            "Stage RTA": "wkprj1j2"
         }
     },
     {
@@ -1123,6 +1125,19 @@
         }
     },
     {
+        "name": "Star Revenge 4.9 - Adulterated Reality",
+        "id": "ldejo5x1",
+        "abbreviation": "sr49",
+        "categories": {
+            "100%": "ndx0jejd",
+            "ISC%": "w205p8zd",
+            "any% (Normal Ending)": "wdm7z94d",
+            "any% (Devour Realm)": "vdon0zok",
+            "Single Star": "wkprj9v2",
+            "Stage RTA": "7dg78x4d"
+        }
+    },
+    {
         "name": "Star Revenge 4: The Kedama Takeover 64",
         "id": "y65e286e",
         "abbreviation": "sm64_starrevenge4",
@@ -1213,7 +1228,7 @@
     {
         "name": "Star Revenge 7.5: Kedowser's Return",
         "id": "k6qj3odg",
-        "abbreviation": "star_revenge_7.5_kedowsers_return",
+        "abbreviation": "star_revenge_7_5_kedowsers_return",
         "categories": {
             "131 Star (v1.1)": "02q3r3yk",
             "130 Star (v1.0)": "wk6gvpd1",
@@ -1268,8 +1283,8 @@
         "id": "o1yw54dq",
         "abbreviation": "star_revenge_redone",
         "categories": {
-            "105 Star": "wdmqro52",
             "106 Star": "7dgg6old",
+            "105 Star": "wdmqro52",
             "Single Stars": "wkpyxz0k",
             "Course RTA": "7dggjpxd"
         }
@@ -1710,6 +1725,16 @@
             "138 Star": "zd3woerk",
             "Single Star": "9kvo6z32",
             "Stage RTA": "9d84e9wk"
+        }
+    },
+    {
+        "name": "Super Mario Lovestruck Calamity",
+        "id": "j1n8kj91",
+        "abbreviation": "super_mario_lovestruck_calamity",
+        "categories": {
+            "85 Star": "xd1qr482",
+            "60 Star": "zd3r0ond",
+            "Stage RTA": "rklzx9w2"
         }
     },
     {

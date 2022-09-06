@@ -40,15 +40,15 @@ def request_src(url):
     err_cnt = 1
     request_finished = False
     resp = None
-    print(f"attempting to request from:{url}")
+    # print(f"attempting to request from:{url}")
     # usually fails if we are requesting too quickly, even with the sleep, try 10 times fail if still not working
     # after 10
     while not request_finished and err_cnt <= err_lim:
-        print(f"attempt: {err_cnt}")
+        # print(f"attempt: {err_cnt}")
         try:
             resp = requests.get(url, headers=_h)
             request_finished = True
-            print("request finished")
+            # print("request finished")
         except requests.exceptions.RequestException as e:  # This is the correct syntax
             print("Error Getting Response")
             print(e)
