@@ -94,15 +94,27 @@ if __name__ == '__main__':
                                 'verify-date'] is not None:
                                 wr_run = wr_res['data']['runs'][0]['run']
                                 verified_date = dt.strptime(wr_run['status']['verify-date'], '%Y-%m-%dT%H:%M:%SZ')
-                                if verified_date >= start_time - td(days=7):
+                                if verified_date >= start_time - td(days=999):
                                     user_url = wr_run['players'][0]['uri']
-                                    user_res = request_src(user_url)['data']
+                                    user_res = wr_res['data']['players']['data'][0]
                                     wr_json['game'] = game_name
                                     wr_json['category'] = category_name
-                                    wr_json['player'] = user_res['names']['international']
+                                    wr_json['run_link'] = wr_run['weblink']
                                     wr_json['time'] = wr_run['times']['primary'].replace('PT', '').replace('M',
                                                                                                            ':').replace(
                                         'H', ':').replace('S', '')
+                                    wr_json['player'] = user_res['names']['international']
+                                    if user_res['youtube']:
+                                        wr_json['youtube_link'] = user_res['youtube']['uri']
+                                    if user_res['twitch']:
+                                        wr_json['twitch_link'] = user_res['twitch']['uri']
+                                    if user_res['twitter']:
+                                        wr_json['twitter_link'] = user_res['twitch']['uri']
+                                    if user_res['assets']:
+                                        if user_res['assets']['icon']['uri'] is not None:
+                                            wr_json['image'] = user_res['assets']['icon']['uri']
+                                        elif user_res['assets']['image']['uri'] is not None:
+                                            wr_json['image'] = user_res['assets']['image']['uri']
                                     wrs.append(wr_json)
         url = None
         for page in res['pagination']['links']:
