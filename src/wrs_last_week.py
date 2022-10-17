@@ -22,6 +22,7 @@ _retry_sleep = 30
 start_time = dt.today()
 
 
+
 def request_src(request_url):
     err_lim = 5
     err_cnt = 1
@@ -60,62 +61,59 @@ def request_src(request_url):
 
 
 if __name__ == '__main__':
+    job_start_time = time.time()
     wrs = []
     # hacks string
-    url = f'https://www.speedrun.com/api/v1/series/0499o64v/games?max=200'
+    url = f'https://www.speedrun.com/api/v1/series/0499o64v/games?max=200&embed=categories'
     while url is not None:
         res = request_src(url)
-        # print(json.dumps(res, indent=4))
         for game in res['data']:
             game_name = game['names']['international']
             game_id = game['id']
-            for link in game['links']:
-                if link['rel'] == 'categories':
-                    cat_res = request_src(link['uri'])
-                    categories_json = {}
-                    for category in cat_res['data']:
-                        wr_json = {}
-                        category_name = category['name']
-                        if category_name.lower() not in ['single burger', 'individual levels', 'ils', 'star',
-                                                         'stars', 'single stars', 'single star', 'singlestar',
-                                                         'singlestars', 'star%', 'star %', 'single shines',
-                                                         'stage rtas', 'single ztar', 'single ztars', 'stage rta',
-                                                         'course rta', 'full level rta',
-                                                         'star speedruns', 'rank speedruns', '1', '2', '3', '4', '5',
-                                                         '6', '100 coin star', 'star igt']:
-                            try:
-                                wr_url = f"https://www.speedrun.com/api/v1/leaderboards/{game_id}/category/{category['id']}?top=1&embed=players"
-                                wr_res = request_src(wr_url)
-                            except requests.exceptions.RequestException as err:
-                                print(f"Not a proper category: {game_name} : {category_name}", err)
-                                continue
+            cat_res = game['categories']['data']
 
-                            if wr_res['data']['runs'] and wr_res['data']['runs'][0]['run']['status'][
-                                'verify-date'] is not None:
-                                wr_run = wr_res['data']['runs'][0]['run']
-                                verified_date = dt.strptime(wr_run['status']['verify-date'], '%Y-%m-%dT%H:%M:%SZ')
-                                if verified_date >= start_time - td(days=999):
-                                    user_url = wr_run['players'][0]['uri']
-                                    user_res = wr_res['data']['players']['data'][0]
-                                    wr_json['game'] = game_name
-                                    wr_json['category'] = category_name
-                                    wr_json['run_link'] = wr_run['weblink']
-                                    wr_json['time'] = wr_run['times']['primary'].replace('PT', '').replace('M',
-                                                                                                           ':').replace(
-                                        'H', ':').replace('S', '')
-                                    wr_json['player'] = user_res['names']['international']
-                                    if user_res['youtube']:
-                                        wr_json['youtube_link'] = user_res['youtube']['uri']
-                                    if user_res['twitch']:
-                                        wr_json['twitch_link'] = user_res['twitch']['uri']
-                                    if user_res['twitter']:
-                                        wr_json['twitter_link'] = user_res['twitch']['uri']
-                                    if user_res['assets']:
-                                        if user_res['assets']['icon']['uri'] is not None:
-                                            wr_json['image'] = user_res['assets']['icon']['uri']
-                                        elif user_res['assets']['image']['uri'] is not None:
-                                            wr_json['image'] = user_res['assets']['image']['uri']
-                                    wrs.append(wr_json)
+            try:
+                game_url = f"https://www.speedrun.com/api/v1/games/{game_id}/records?scope=full-game&top=1&embed=players"
+                wr_results = request_src(game_url)['data']
+            except requests.exceptions.RequestException as err:
+                print(
+                    f"Not a proper category or no runs submitted for: {game_name}: , error in wr url: {game_url}, error message: {err}")
+                continue
+
+            for wr_res in wr_results:
+                wr_json = {'game': game_name}
+                if wr_res['runs'] and wr_res['runs'][0]['run']['status'][
+                    'verify-date'] is not None:
+                    wr_run = wr_res['runs'][0]['run']
+                    for cat in cat_res:
+                        if cat['id'] == wr_run['category']:
+                            wr_json['category'] = cat['name']
+                            break
+                    verified_date = dt.strptime(wr_run['status']['verify-date'], '%Y-%m-%dT%H:%M:%SZ')
+                    if verified_date >= start_time - td(days=7):
+                        user_url = wr_run['players'][0]['uri']
+                        user_res = wr_res['players']['data'][0]
+                        wr_json['run_link'] = wr_run['weblink']
+                        wr_time_string = str(td(seconds=wr_run['times']['primary_t']))
+                        if len(wr_time_string) > 3 and wr_time_string[-3:] == '000':
+                            wr_time_string = wr_time_string[:-3]
+                        if len(wr_time_string) > 2 and wr_time_string[0:2] == '0:':
+                            wr_time_string = wr_time_string[2:]
+                        wr_json['time'] = wr_time_string
+                        wr_json['player'] = user_res['names']['international']
+                        if user_res['youtube']:
+                            wr_json['youtube_link'] = user_res['youtube']['uri']
+                        if user_res['twitch']:
+                            wr_json['twitch_link'] = user_res['twitch']['uri']
+                        if user_res['twitter']:
+                            wr_json['twitter_link'] = user_res['twitch']['uri']
+                        if user_res['assets']:
+                            if user_res['assets']['image']['uri'] is not None:
+                                wr_json['image'] = user_res['assets']['image']['uri']
+                            elif user_res['assets']['icon']['uri'] is not None:
+                                wr_json['image'] = user_res['assets']['icon']['uri']
+
+                        wrs.append(wr_json)
         url = None
         for page in res['pagination']['links']:
             if page['rel'] == 'next':
@@ -126,3 +124,5 @@ if __name__ == '__main__':
         for wr in wrs:
             message = message + f"\n {wr['player']} With a time of {wr['time']} in: {wr['game']} : {wr['category']}"
         print(message)
+
+    print(f"---{time.time() - job_start_time} seconds ---")

@@ -23,7 +23,11 @@ _retry_sleep = 30
 
 # url help
 def get_runs_for_game_category(game_id, category):
-    return f'https://www.speedrun.com/api/v1/runs?game={game_id}&category={category}&status=verified&orderby=verify-date&direction=desc'
+    return f'https://www.speedrun.com/api/v1/runs?game={game_id}&category={category}&status=verified&orderby=verify-date&direction=desc&embed=players'
+
+
+def get_leaderboard_for_game_category(game_id, category):
+    return f'https://www.speedrun.com/api/v1/leaderboards/{game_id}/category/{category}?embed=players'
 
 
 def get_runs_for_game(game_id):
@@ -50,7 +54,7 @@ def request_src(url):
             request_finished = True
             # print("request finished")
         except requests.exceptions.RequestException as e:  # This is the correct syntax
-            print("Error Getting Response")
+            print(f"Error Getting Response from {url}" )
             print(e)
             if err_cnt == err_lim:
                 raise requests.exceptions.RequestException
