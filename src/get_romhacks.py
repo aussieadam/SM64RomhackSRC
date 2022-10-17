@@ -27,13 +27,11 @@ if __name__ == '__main__':
             if '68wzrnv8' not in game['moderators']:
                 print(f"{game['abbreviation']} is missing aussieadam")
             game_json = {'name': game['names']['international'], 'id': game['id'], 'abbreviation': game['abbreviation']}
-            for link in game['links']:
-                if link['rel'] == 'categories':
-                    cat_res = srcHelper.request_src(link['uri'])
-                    categories_json = {}
-                    for category in cat_res['data']:
-                        categories_json[category['name']] = category['id']
-                    game_json['categories'] = categories_json
+            cat_res = game['categories']
+            categories_json = {}
+            for category in cat_res['data']:
+                categories_json[category['name']] = category['id']
+            game_json['categories'] = categories_json
             hacks.append(game_json)
         url = None
         for page in res['pagination']['links']:

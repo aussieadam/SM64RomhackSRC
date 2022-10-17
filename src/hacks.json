@@ -142,6 +142,17 @@
         }
     },
     {
+        "name": "Friday 64",
+        "id": "ldejo7n1",
+        "abbreviation": "friday_64",
+        "categories": {
+            "15 Star": "vdon4g1k",
+            "0 Star": "wdm7qoxd",
+            "Single Stars": "wkprye02",
+            "Stage RTA": "7dg7g3xd"
+        }
+    },
+    {
         "name": "Gamer Mario's Destiny 64",
         "id": "m1zj7k36",
         "abbreviation": "gmd64",
@@ -579,9 +590,9 @@
         "id": "46wpzldr",
         "abbreviation": "shining_stars_3",
         "categories": {
-            "0 Star": "wk615red",
-            "90 Star": "n2yj0re2",
             "132 Star": "7kjzelgd",
+            "90 Star": "n2yj0re2",
+            "0 Star": "wk615red",
             "Single Star": "z273q55d",
             "Stage RTA": "zdnrjo72"
         }
@@ -657,7 +668,10 @@
             "50 Star": "w20e9m5d",
             "0 Star": "wdmmpood",
             "Single Stars": "wkpgwewk",
-            "Stage RTA": "7dg1v3pd"
+            "Stage RTA": "7dg1v3pd",
+            "120 Star (DE)": "zdn7q9ek",
+            "71 Star (DE)": "q25946yk",
+            "8 Star (DE)": "jdr8pmgk"
         }
     },
     {
@@ -823,7 +837,9 @@
         "abbreviation": "sotb",
         "categories": {
             "120 Star": "jdrlnrgd",
-            "145 Star": "q25m1xyd"
+            "145 Star": "q25m1xyd",
+            "Single Stars": "9kvlx1j2",
+            "Stage RTA": "9d8nvz6d"
         }
     },
     {
@@ -890,9 +906,9 @@
         "id": "46wgv3dr",
         "abbreviation": "sm64_last_impact",
         "categories": {
-            "0 Star": "ndx8r4jk",
-            "80 Star": "w20ze3zd",
             "130 Star": "02qjeo7d",
+            "80 Star": "w20ze3zd",
+            "0 Star": "ndx8r4jk",
             "20 Star": "jdrpwzx2",
             "Single Star": "q254p9vd",
             "Stage RTA": "jdrp0852"
@@ -929,8 +945,8 @@
         "id": "v1pol9m6",
         "abbreviation": "sm64oot",
         "categories": {
-            "Any%": "xk9g48gd",
             "100%": "z276qlod",
+            "Any%": "xk9g48gd",
             "Escape%": "zdn4jxxk"
         }
     },
@@ -1105,9 +1121,9 @@
         "id": "9dojwo6p",
         "abbreviation": "mario_on_an_saoire_64",
         "categories": {
-            "1 Star": "mkeommxd",
-            "36 Star": "q2594gko",
             "65 Star": "jdr8plk6",
+            "36 Star": "q2594gko",
+            "1 Star": "mkeommxd",
             "Single Stars": "824p33w2",
             "Stage RTA": "9d8v0q7k"
         }
@@ -1129,10 +1145,10 @@
         "id": "ldejo5x1",
         "abbreviation": "sr49",
         "categories": {
-            "100%": "ndx0jejd",
-            "ISC%": "w205p8zd",
-            "any% (Normal Ending)": "wdm7z94d",
-            "any% (Devour Realm)": "vdon0zok",
+            "150 Star": "ndx0jejd",
+            "61 Star": "w205p8zd",
+            "1 Star (Normal Ending)": "wdm7z94d",
+            "0 Star (Devour Realm Ending)": "vdon0zok",
             "Single Star": "wkprj9v2",
             "Stage RTA": "7dg78x4d"
         }
@@ -1387,7 +1403,8 @@
             "40 Star": "mkew186k",
             "8 Star": "5dwq3vld",
             "Single Stars": "wk6rq6xk",
-            "Stage RTA": "n2yrlx8d"
+            "Stage RTA": "n2yrlx8d",
+            "any%": "xk99jevk"
         }
     },
     {
@@ -1445,13 +1462,14 @@
         "id": "268yrydp",
         "abbreviation": "sm64_za",
         "categories": {
+            "0 Star": "jdr8xgxk",
             "5 Star": "wdmwz0x2",
             "12 Star": "vdoo061d",
             "50 Star": "wkpojp02",
             "95 Star": "7dgr8zxk",
-            "170 Star": "mkezoexk",
             "Single Stars": "q25qj3w2",
-            "Stage RTA": "02q4o47d"
+            "Stage RTA": "02q4o47d",
+            "170 Star": "mkezoexk"
         }
     },
     {
@@ -1558,9 +1576,9 @@
         "id": "o6gwjn12",
         "abbreviation": "sm64tgs",
         "categories": {
-            "0 Star": "zdnomq2q",
-            "80 Star": "q255082o",
             "130 Star": "jdrwgxk6",
+            "80 Star": "q255082o",
+            "0 Star": "zdnomq2q",
             "Stars": "q254pvyd",
             "Course RTA": "wdm4ryod"
         }

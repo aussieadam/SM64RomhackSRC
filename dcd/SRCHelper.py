@@ -35,7 +35,7 @@ def get_runs_for_game(game_id):
 
 
 def get_romhacks():
-    return f'https://www.speedrun.com/api/v1/series/0499o64v/games?max=200'
+    return f'https://www.speedrun.com/api/v1/series/0499o64v/games?max=200&embed=categories'
 
 
 # requests
