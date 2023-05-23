@@ -223,8 +223,8 @@ if __name__ == '__main__':
 
     for missing_star_cat in missing_star_category:
         print(
-            f'hack: {missing_star_cat[0]}, has no single star category within SRC or get_game_level_star is missing single '
-            f'star category')
+            f'hack: {missing_star_cat[0]}, has no single star category within SRC or get_game_level_star is missing '
+            f'single star category')
 
     for missing in missing_star_or_level:
         print(f'{missing[0]} is missing course {missing[1]} or star {missing[2]} on SRC')
