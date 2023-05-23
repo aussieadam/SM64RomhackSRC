@@ -1,10 +1,6 @@
 import argparse
-
-import requests
-
 import dcd.SRCHelper as srcHelper
 import json
-import csv
 import os
 from dotenv import load_dotenv
 import pandas as pd
@@ -26,6 +22,7 @@ load_dotenv()
 run_list = args.stars
 hack_list = args.hacks
 live_run = True if args.live.lower() == 'true' else False
+print(f"Live run set to: {live_run}")
 # expects a .env file with SRC_API_KEY, you can get the key from https://www.speedrun.com/<YOUR_USER_HERE>/settings/api
 SRC_API_KEY = os.getenv('SRC_API_KEY')
 

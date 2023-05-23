@@ -17301,9 +17301,1110 @@
         "categories": {
             "111 Star": "jdrv3n02",
             "76 Star": "02q31rzk",
-            "1 Star": "jdz9gnx2"
+            "1 Star": "jdz9gnx2",
+            "Stage RTA": "02qwz092",
+            "Single Star": "824e43nk"
         },
-        "variables": {}
+        "variables": {
+            "Red-Hot Rockway": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1dkkg94l": "Star 1",
+                    "q8kk8jgq": "Star 2",
+                    "qyzzod41": "Star 3",
+                    "ln88mp0l": "Star 4",
+                    "10vvjgwl": "Star 6",
+                    "qj77nveq": "Star 7"
+                },
+                "values": {
+                    "1dkkg94l": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q8kk8jgq": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qyzzod41": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "ln88mp0l": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "10vvjgwl": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj77nveq": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "1dkkg94l",
+                "id": "r8reow0l",
+                "level_id": "xd0z2em9",
+                "var_name": "C1 Stars"
+            },
+            "Moonshine Ice Rink": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1pyyopg1": "Star 1",
+                    "qkee0jnq": "Star 2",
+                    "q755d0v1": "Star 3",
+                    "1gnndvnl": "Star 4",
+                    "qznne8gq": "Star 6",
+                    "lr334vjl": "Star 7"
+                },
+                "values": {
+                    "1pyyopg1": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qkee0jnq": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q755d0v1": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1gnndvnl": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qznne8gq": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lr334vjl": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "1pyyopg1",
+                "id": "5lye7qg8",
+                "level_id": "rw6jl7p9",
+                "var_name": "C2 Stars"
+            },
+            "Snowy Sandy Tundra Desert": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "le22zr5l": "Star 1",
+                    "q5vvznml": "Star 2",
+                    "lx55op21": "Star 3",
+                    "14oogy0q": "Star 4",
+                    "1922ym0q": "Star 6",
+                    "12vvmd7q": "Star 7"
+                },
+                "values": {
+                    "le22zr5l": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q5vvznml": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lx55op21": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "14oogy0q": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1922ym0q": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "12vvmd7q": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "le22zr5l",
+                "id": "e8mpm9w8",
+                "level_id": "n936ne29",
+                "var_name": "C3 Stars"
+            },
+            "Bubble Blast City": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q655r03l": "On the Rooftops",
+                    "lmoo6kj1": "Star 2",
+                    "1w44opoq": "Star 3",
+                    "qoxxoppq": "Star 5",
+                    "139978d1": "Star 6",
+                    "qvvvop7q": "Star 7"
+                },
+                "values": {
+                    "q655r03l": {
+                        "label": "On the Rooftops",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lmoo6kj1": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1w44opoq": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qoxxoppq": {
+                        "label": "Star 5",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "139978d1": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qvvvop7q": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "q655r03l",
+                "id": "ylq3kpw8",
+                "level_id": "z981zqrw",
+                "var_name": "C4 Stars"
+            },
+            "Banzai Mountain Highway and Trail": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qyzzop41": "Star 1",
+                    "ln88mw0l": "Star 2",
+                    "10vvjzwl": "Star 3",
+                    "qj77n0eq": "Star 6"
+                },
+                "values": {
+                    "qyzzop41": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "ln88mw0l": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "10vvjzwl": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj77n0eq": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "qyzzop41",
+                "id": "gnx3r4xn",
+                "level_id": "rdnel85d",
+                "var_name": "C5 Stars"
+            },
+            "Drenched Caverns": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q755djv1": "Star 1",
+                    "1gnnd8nl": "Star 2",
+                    "qznnepgq": "Star 3",
+                    "lr334pjl": "Star 4",
+                    "1dkkgz4l": "Star 6",
+                    "q8kk86gq": "Star 7"
+                },
+                "values": {
+                    "q755djv1": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1gnnd8nl": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qznnepgq": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lr334pjl": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1dkkgz4l": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q8kk86gq": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "q755djv1",
+                "id": "dlo93p5l",
+                "level_id": "ldym56pd",
+                "var_name": "C6 Stars"
+            },
+            "Crusty Salt Foothills": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q5vvzzml": "Star 1",
+                    "lx55oo21": "Star 2",
+                    "14oogg0q": "Star 3",
+                    "1922yy0q": "Star 4",
+                    "12vvmm7q": "Star 5",
+                    "1pyyoog1": "Star 6",
+                    "qkee00nq": "Star 7"
+                },
+                "values": {
+                    "q5vvzzml": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lx55oo21": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "14oogg0q": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1922yy0q": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "12vvmm7q": {
+                        "label": "Star 5",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1pyyoog1": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qkee00nq": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "q5vvzzml",
+                "id": "jlz25o7l",
+                "level_id": "n936ne79",
+                "var_name": "C7 Stars"
+            },
+            "Misty Peaks of Bullet Bills": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lmoo66j1": "Star 1",
+                    "1w44oooq": "Star 2",
+                    "qoxxoopq": "Star 3",
+                    "139977d1": "Star 4",
+                    "qvvvoo7q": "Star 6",
+                    "le22zz5l": "Star 7"
+                },
+                "values": {
+                    "lmoo66j1": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1w44oooq": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qoxxoopq": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "139977d1": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qvvvoo7q": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "le22zz5l": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "lmoo66j1",
+                "id": "9l791kzn",
+                "level_id": "z981zq7w",
+                "var_name": "C8 Stars"
+            },
+            "Magmatic Generate": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1dkkgg4l": "Star 1",
+                    "q8kk88gq": "Star 2",
+                    "qyzzoo41": "Star 3",
+                    "ln88mm0l": "Star 4",
+                    "10vvjjwl": "Star 5",
+                    "qj77nneq": "Star 6",
+                    "q655rr3l": "Star 7"
+                },
+                "values": {
+                    "1dkkgg4l": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q8kk88gq": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qyzzoo41": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "ln88mm0l": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "10vvjjwl": {
+                        "label": "Star 5",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj77nneq": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q655rr3l": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "1dkkgg4l",
+                "id": "yn231vgl",
+                "level_id": "rdnel8nd",
+                "var_name": "C9 Stars"
+            },
+            "Tar Scope": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qznne7mq": "Star 1",
+                    "lr334w2l": "Star 2",
+                    "q755ddv1": "Star 3",
+                    "1gnnddnl": "Star 4",
+                    "qznneegq": "Star 6",
+                    "lr3344jl": "Star 7"
+                },
+                "values": {
+                    "qznne7mq": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lr334w2l": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q755ddv1": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1gnnddnl": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qznneegq": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lr3344jl": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "qznne7mq",
+                "id": "6njyqvvn",
+                "level_id": "ldym56jd",
+                "var_name": "C10 Stars"
+            },
+            "Charred Darkside Woodworks": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "12vvmekq": "Star 1",
+                    "1pyyowk1": "Star 2",
+                    "qkee0kyq": "Star 3",
+                    "q755dey1": "Star 6",
+                    "1gnndrml": "Star 7"
+                },
+                "values": {
+                    "12vvmekq": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1pyyowk1": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qkee0kyq": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q755dey1": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1gnndrml": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "12vvmekq",
+                "id": "kn09z4zn",
+                "level_id": "gdr58l89",
+                "var_name": "C11 Stars"
+            },
+            "Crystalized Indigo Fir Forest": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "13997e31": "Star 1",
+                    "qvvvowwq": "Star 2",
+                    "le22zgzl": "Star 3",
+                    "q5vvzenl": "Star 4",
+                    "lx55owr1": "Star 5",
+                    "14oogejq": "Star 6",
+                    "1922ygkq": "Star 7"
+                },
+                "values": {
+                    "13997e31": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qvvvowwq": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "le22zgzl": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q5vvzenl": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lx55owr1": {
+                        "label": "Star 5",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "14oogejq": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1922ygkq": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "13997e31",
+                "id": "ql6w4g7n",
+                "level_id": "nwlry1pw",
+                "var_name": "C12 Stars"
+            },
+            "Tetriminos of the Multiverse": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "10vvje5l": "Star 1",
+                    "qj77nygq": "Star 2",
+                    "q655rk7l": "Star 3",
+                    "lmoo6j41": "Star 4",
+                    "1w44ow5q": "Star 6",
+                    "qoxxow2q": "Star 7"
+                },
+                "values": {
+                    "10vvje5l": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj77nygq": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q655rk7l": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lmoo6j41": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1w44ow5q": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qoxxow2q": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "10vvje5l",
+                "id": "onv92678",
+                "level_id": "ywe6jgq9",
+                "var_name": "C13 Stars"
+            },
+            "Silky Underground": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lr334n2l": "Star 1",
+                    "q8kk87kq": "Star 2",
+                    "1dkkg7jl": "Star 3",
+                    "qyzzoe71": "Star 4",
+                    "ln88m6dl": "Star 6"
+                },
+                "values": {
+                    "lr334n2l": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q8kk87kq": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1dkkg7jl": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qyzzoe71": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "ln88m6dl": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "lr334n2l",
+                "id": "ylpgmv6l",
+                "level_id": "69zkqj69",
+                "var_name": "B1 Stars"
+            },
+            "Underside of the Salt Mines": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1922y7kq": "Star 1",
+                    "12vvm3kq": "Star 2",
+                    "1pyyo8k1": "Star 3",
+                    "qkee07yq": "Star 4",
+                    "q755dky1": "Star 5",
+                    "1gnndyml": "Star 6",
+                    "qznnekmq": "Star 7"
+                },
+                "values": {
+                    "1922y7kq": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "12vvm3kq": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1pyyo8k1": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qkee07yq": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q755dky1": {
+                        "label": "Star 5",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1gnndyml": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qznnekmq": {
+                        "label": "Star 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "1922y7kq",
+                "id": "0nwgk208",
+                "level_id": "r9gvj5q9",
+                "var_name": "B2 Stars"
+            },
+            "Land of the Cosmic Crystals": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q5vvzknl": "Star 1",
+                    "lx55o3r1": "Star 2",
+                    "14oog3jq": "Star 6"
+                },
+                "values": {
+                    "q5vvzknl": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lx55o3r1": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "14oog3jq": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "q5vvzknl",
+                "id": "7893jk38",
+                "level_id": "o9xpzq6d",
+                "var_name": "B3 Stars"
+            },
+            "Green Switch Palace": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "le22zdzl": "Star 1"
+                },
+                "values": {
+                    "le22zdzl": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "le22zdzl",
+                "id": "2lgygzel",
+                "level_id": "rdqx3rmw",
+                "var_name": "MC Stars"
+            },
+            "Red Switch Palace": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "13997331": "Star 1"
+                },
+                "values": {
+                    "13997331": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "13997331",
+                "id": "wl3e36vn",
+                "level_id": "5d7oe559",
+                "var_name": "WC Stars"
+            },
+            "Blue Switch Palace": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qoxxod2q": "Star 1"
+                },
+                "values": {
+                    "qoxxod2q": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "qoxxod2q",
+                "id": "wleyx64n",
+                "level_id": "kwjn8jr9",
+                "var_name": "VC Stars"
+            },
+            "Yellow Switch Palace": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qvvvo3wq": "Star 1"
+                },
+                "values": {
+                    "qvvvo3wq": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "qvvvo3wq",
+                "id": "68kydm3l",
+                "level_id": "4957rg2w",
+                "var_name": "YS Stars"
+            },
+            "Cicada Cherry Logging": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "10vvj35l": "Star 1",
+                    "qj77njgq": "Star 2",
+                    "q655r37l": "Star 4",
+                    "lmoo6z41": "Star 5",
+                    "1w44o35q": "Star 6"
+                },
+                "values": {
+                    "10vvj35l": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj77njgq": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q655r37l": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lmoo6z41": {
+                        "label": "Star 5",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1w44o35q": {
+                        "label": "Star 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "10vvj35l",
+                "id": "j84v6k28",
+                "level_id": "owozenvd",
+                "var_name": "S1 Stars"
+            },
+            "Steampuff Shallows": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lr33462l": "Star 1",
+                    "1dkkgrjl": "Star 2",
+                    "q8kk85kq": "Star 3",
+                    "qyzzo371": "Star 4",
+                    "ln88mrdl": "Star 5"
+                },
+                "values": {
+                    "lr33462l": {
+                        "label": "Star 1",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1dkkgrjl": {
+                        "label": "Star 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q8kk85kq": {
+                        "label": "Star 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qyzzo371": {
+                        "label": "Star 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "ln88mrdl": {
+                        "label": "Star 5",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "lr33462l",
+                "id": "rn1g41on",
+                "level_id": "xd1g3rqd",
+                "var_name": "S2 Stars"
+            }
+        }
     },
     {
         "name": "Mario Party 64",
@@ -29965,6 +31066,25 @@
                 "id": "38deo0en",
                 "level_id": "5wky8xvd",
                 "var_name": "C5 Stars"
+            },
+            "King Bob-Omb's Fortress": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q5vve27l": "Lava Side Star"
+                },
+                "values": {
+                    "q5vve27l": {
+                        "label": "Lava Side Star",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "q5vve27l",
+                "id": "jlz2k3yl",
+                "level_id": "592x3k7d",
+                "var_name": "KBF Stars"
             }
         }
     },
@@ -80104,9 +81224,1076 @@
         "categories": {
             "0 Star": "xk9lqryk",
             "120 Star": "z277nrg2",
-            "164 Star": "zdnq60qd"
+            "164 Star": "zdnq60qd",
+            "Single Star": "5dwvzw0k",
+            "Stage RTA": "wk66ylpk"
         },
-        "variables": {}
+        "variables": {
+            "Bob-Omb's Grassfield": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lx55odr1": "Jump On The Wooden Log",
+                    "14oog4jq": "The Sound Boxes",
+                    "1922ydkq": "The Place Of The Wiggler",
+                    "12vvm4kq": "Bearded Swimmer",
+                    "1pyyo6k1": "Red Coins In The Garden",
+                    "qkee06yq": "The High Jump",
+                    "q755dzy1": "100 Coins"
+                },
+                "values": {
+                    "lx55odr1": {
+                        "label": "Jump On The Wooden Log",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "14oog4jq": {
+                        "label": "The Sound Boxes",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1922ydkq": {
+                        "label": "The Place Of The Wiggler",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "12vvm4kq": {
+                        "label": "Bearded Swimmer",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1pyyo6k1": {
+                        "label": "Red Coins In The Garden",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qkee06yq": {
+                        "label": "The High Jump",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q755dzy1": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "lx55odr1",
+                "id": "9l793zzn",
+                "level_id": "5wkynxvd",
+                "var_name": "C1 Stars"
+            },
+            "Freeze Polar Land": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lmoo6w41": "Where Is My Baby ??",
+                    "1w44or5q": "On Top Of The Snow House",
+                    "qoxxo22q": "Frozen Pillars",
+                    "13997431": "Acrobatic Mario",
+                    "qvvvozwq": "8 Coins On Ice",
+                    "le22zvzl": "The Secrets Of The Presents",
+                    "q5vvz7nl": "100 Coins"
+                },
+                "values": {
+                    "lmoo6w41": {
+                        "label": "Where Is My Baby ??",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1w44or5q": {
+                        "label": "On Top Of The Snow House",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qoxxo22q": {
+                        "label": "Frozen Pillars",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "13997431": {
+                        "label": "Acrobatic Mario",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qvvvozwq": {
+                        "label": "8 Coins On Ice",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "le22zvzl": {
+                        "label": "The Secrets Of The Presents",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q5vvz7nl": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "lmoo6w41",
+                "id": "yn231ggl",
+                "level_id": "592x8k7d",
+                "var_name": "C2 Stars"
+            },
+            "Piranha Swamp-Mushroom": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1dkkgojl": "Return Of The Piranha Plants",
+                    "q8kk8rkq": "The Crushing Of The Twhomps",
+                    "qyzzo871": "On Top Of The Bowser's House",
+                    "ln88mkdl": "Red Coins In The Swamp",
+                    "10vvj95l": "Hidden Star In The Clouds",
+                    "qj77negq": "Owl In The Morning!",
+                    "q655rg7l": "100 Coins"
+                },
+                "values": {
+                    "1dkkgojl": {
+                        "label": "Return Of The Piranha Plants",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q8kk8rkq": {
+                        "label": "The Crushing Of The Twhomps",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qyzzo871": {
+                        "label": "On Top Of The Bowser's House",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "ln88mkdl": {
+                        "label": "Red Coins In The Swamp",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "10vvj95l": {
+                        "label": "Hidden Star In The Clouds",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj77negq": {
+                        "label": "Owl In The Morning!",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q655rg7l": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "1dkkgojl",
+                "id": "6njyqrvn",
+                "level_id": "29vol6qw",
+                "var_name": "C3 Stars"
+            },
+            "Sand-Valley Highway": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "12vvmxkq": "Eyerock In The Temple",
+                    "1pyyodk1": "The Sand Breaks",
+                    "qkee0myq": "Switch The Switches",
+                    "q755dry1": "Jumping Pillars For Red Coins",
+                    "1gnnd2ml": "Working With The Red Shell",
+                    "qznnexmq": "The Pyramids Of Frustration",
+                    "lr334y2l": "100 Coins"
+                },
+                "values": {
+                    "12vvmxkq": {
+                        "label": "Eyerock In The Temple",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1pyyodk1": {
+                        "label": "The Sand Breaks",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qkee0myq": {
+                        "label": "Switch The Switches",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q755dry1": {
+                        "label": "Jumping Pillars For Red Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1gnnd2ml": {
+                        "label": "Working With The Red Shell",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qznnexmq": {
+                        "label": "The Pyramids Of Frustration",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lr334y2l": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "12vvmxkq",
+                "id": "kn09zwzn",
+                "level_id": "xd4qy1qw",
+                "var_name": "C4 Stars"
+            },
+            "Creppy Boo's Church": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "13997531": "Boo's Room",
+                    "qvvvoewq": "Mario Is Haunted!",
+                    "le22zmzl": "The Grand Cross ???",
+                    "q5vvzgnl": "Move The Mad Pianos",
+                    "lx55oer1": "The Secret In The Church",
+                    "14oog7jq": "8 Haunted Keys",
+                    "1922y8kq": "100 Coins"
+                },
+                "values": {
+                    "13997531": {
+                        "label": "Boo's Room",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qvvvoewq": {
+                        "label": "Mario Is Haunted!",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "le22zmzl": {
+                        "label": "The Grand Cross ???",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q5vvzgnl": {
+                        "label": "Move The Mad Pianos",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lx55oer1": {
+                        "label": "The Secret In The Church",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "14oog7jq": {
+                        "label": "8 Haunted Keys",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1922y8kq": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "13997531",
+                "id": "ql6w4d7n",
+                "level_id": "xd0z21m9",
+                "var_name": "C5 Stars"
+            },
+            "Peach Beach": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "ln88mzdl": "Wallkick Challenge",
+                    "10vvjw5l": "Inside The Ship",
+                    "qj77nxgq": "Red Coins On The Beach",
+                    "q655rz7l": "Star In The Waterfall...",
+                    "lmoo6g41": "This Ship Is Sunk!?",
+                    "1w44o55q": "How Can I Arrive To That Place?",
+                    "qoxxor2q": "100 Coins"
+                },
+                "values": {
+                    "ln88mzdl": {
+                        "label": "Wallkick Challenge",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "10vvjw5l": {
+                        "label": "Inside The Ship",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj77nxgq": {
+                        "label": "Red Coins On The Beach",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q655rz7l": {
+                        "label": "Star In The Waterfall...",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lmoo6g41": {
+                        "label": "This Ship Is Sunk!?",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1w44o55q": {
+                        "label": "How Can I Arrive To That Place?",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qoxxor2q": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "ln88mzdl",
+                "id": "onv92r78",
+                "level_id": "rw6jl1p9",
+                "var_name": "C6 Stars"
+            },
+            "Lava Lava Towers": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lr3340ol": "In The Lava Lake",
+                    "1gnnd4ml": "Scale The Tower",
+                    "qznne5mq": "Next Tower And Next Star",
+                    "lr33402l": "Lava Lava Coins",
+                    "1dkkg3jl": "Switch The Switches Part 2",
+                    "q8kk8dkq": "Lava Lava Waterfall",
+                    "qyzzoj71": "100 Coins"
+                },
+                "values": {
+                    "lr3340ol": {
+                        "label": "In The Lava Lake",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1gnnd4ml": {
+                        "label": "Scale The Tower",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qznne5mq": {
+                        "label": "Next Tower And Next Star",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lr33402l": {
+                        "label": "Lava Lava Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1dkkg3jl": {
+                        "label": "Switch The Switches Part 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q8kk8dkq": {
+                        "label": "Lava Lava Waterfall",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qyzzoj71": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "lr3340ol",
+                "id": "ylpgmw6l",
+                "level_id": "n936nx29",
+                "var_name": "C7 Stars"
+            },
+            "Lethal Acid Sewer": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1922y9yq": "Lethal Coins",
+                    "12vvmwdq": "In The Middle Of The World",
+                    "1pyyo0v1": "The Nose Of The Skeleton",
+                    "qkee04dq": "Lethal Puzzle",
+                    "q755d4p1": "Switch The Switches Part 3",
+                    "1gnnd46l": "Nuclear Plant!!??",
+                    "qznne52q": "100 Coins"
+                },
+                "values": {
+                    "1922y9yq": {
+                        "label": "Lethal Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "12vvmwdq": {
+                        "label": "In The Middle Of The World",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1pyyo0v1": {
+                        "label": "The Nose Of The Skeleton",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qkee04dq": {
+                        "label": "Lethal Puzzle",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q755d4p1": {
+                        "label": "Switch The Switches Part 3",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1gnnd46l": {
+                        "label": "Nuclear Plant!!??",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qznne52q": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "1922y9yq",
+                "id": "0nwgk108",
+                "level_id": "z981zorw",
+                "var_name": "C8 Stars"
+            },
+            "Koopa's Bloodied Waters": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qoxxo35q": "Rings In The Water Depths",
+                    "13997mr1": "The Unagi's Treasure",
+                    "qvvvorrq": "Bloodied Coins",
+                    "le22z4ml": "Grisly Bloodied Secrets",
+                    "q5vvz57l": "Clam?",
+                    "lx55o831": "The Dangerous Underwater Tweester",
+                    "14oogveq": "100 Coins"
+                },
+                "values": {
+                    "qoxxo35q": {
+                        "label": "Rings In The Water Depths",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "13997mr1": {
+                        "label": "The Unagi's Treasure",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qvvvorrq": {
+                        "label": "Bloodied Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "le22z4ml": {
+                        "label": "Grisly Bloodied Secrets",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q5vvz57l": {
+                        "label": "Clam?",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lx55o831": {
+                        "label": "The Dangerous Underwater Tweester",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "14oogveq": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "qoxxo35q",
+                "id": "7893jr38",
+                "level_id": "rdnelm5d",
+                "var_name": "C9 Stars"
+            },
+            "Crystal Snow Beach": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qyzzo461": "Chill With The Bully Part 2",
+                    "ln88m3ol": "Crystal Coins",
+                    "10vvjmol": "In The Great Igloo",
+                    "qj77n47q": "It Is On A Long Road",
+                    "q655rxvl": "Secrets Everywhere",
+                    "lmoo6481": "The Jumper",
+                    "1w44odmq": "100 Coins"
+                },
+                "values": {
+                    "qyzzo461": {
+                        "label": "Chill With The Bully Part 2",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "ln88m3ol": {
+                        "label": "Crystal Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "10vvjmol": {
+                        "label": "In The Great Igloo",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj77n47q": {
+                        "label": "It Is On A Long Road",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q655rxvl": {
+                        "label": "Secrets Everywhere",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lmoo6481": {
+                        "label": "The Jumper",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1w44odmq": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "qyzzo461",
+                "id": "2lgygoel",
+                "level_id": "ldym5rpd",
+                "var_name": "C10 Stars"
+            },
+            "Grass Paradise": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qkee08dq": "Among All The Branches!",
+                    "q755dgp1": "Locked In A Block",
+                    "1gnndg6l": "Planting Coins In The Garden",
+                    "qznne42q": "Secrets Among The Clouds",
+                    "lr3347ol": "Switch The Switches Part 4",
+                    "1dkkgdpl": "You Will Never Find Me!",
+                    "q8kk8zyq": "100 Coins"
+                },
+                "values": {
+                    "qkee08dq": {
+                        "label": "Among All The Branches!",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q755dgp1": {
+                        "label": "Locked In A Block",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1gnndg6l": {
+                        "label": "Planting Coins In The Garden",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qznne42q": {
+                        "label": "Secrets Among The Clouds",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lr3347ol": {
+                        "label": "Switch The Switches Part 4",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1dkkgdpl": {
+                        "label": "You Will Never Find Me!",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q8kk8zyq": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "qkee08dq",
+                "id": "wl3e3pvn",
+                "level_id": "gdr580e9",
+                "var_name": "C11 Stars"
+            },
+            "Shifting Gloomy Temple": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "le22z8ml": "The Fun Of Traveling",
+                    "q5vvz87l": "Switch The Switches Part 5",
+                    "lx55o431": "In The Labyrinth The 8 Red Coins",
+                    "14oogdeq": "The Strange Purple Secrets",
+                    "1922yryq": "Catastrophe Of The Changing Temple",
+                    "12vvmzdq": "Where Mario Dies, There I Am",
+                    "1pyyonv1": "100 Coins"
+                },
+                "values": {
+                    "le22z8ml": {
+                        "label": "The Fun Of Traveling",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q5vvz87l": {
+                        "label": "Switch The Switches Part 5",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lx55o431": {
+                        "label": "In The Labyrinth The 8 Red Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "14oogdeq": {
+                        "label": "The Strange Purple Secrets",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1922yryq": {
+                        "label": "Catastrophe Of The Changing Temple",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "12vvmzdq": {
+                        "label": "Where Mario Dies, There I Am",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1pyyonv1": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "le22z8ml",
+                "id": "wleyx04n",
+                "level_id": "nwlrymow",
+                "var_name": "C12 Stars"
+            },
+            "Whomps Volcanic Mountain": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1dkkg2pl": "King Whomp Revenge!",
+                    "q8kk8gyq": "In The Small Patch Of The Volcano",
+                    "qyzzon61": "The 8 Very Red Coins",
+                    "ln88m5ol": "Switch The Switches Part 6",
+                    "10vvj7ol": "The 5 Damn Secrets",
+                    "qj77nd7q": "In The Depths Of Magma Layers..",
+                    "q655r7vl": "100 Coins"
+                },
+                "values": {
+                    "1dkkg2pl": {
+                        "label": "King Whomp Revenge!",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q8kk8gyq": {
+                        "label": "In The Small Patch Of The Volcano",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qyzzon61": {
+                        "label": "The 8 Very Red Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "ln88m5ol": {
+                        "label": "Switch The Switches Part 6",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "10vvj7ol": {
+                        "label": "The 5 Damn Secrets",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj77nd7q": {
+                        "label": "In The Depths Of Magma Layers..",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q655r7vl": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "1dkkg2pl",
+                "id": "68kydp3l",
+                "level_id": "ywe6jvl9",
+                "var_name": "C13 Stars"
+            },
+            "Thwomp Sky Harbor": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "12vvm2dq": "At The Beginning Of The World",
+                    "1pyyoxv1": "Wallkick Abuse?",
+                    "qkee0zdq": "Wallkick Coins",
+                    "q755d7p1": "Books Throughout The Port",
+                    "1gnndx6l": "Switch The Switches Part 7",
+                    "qznne02q": "The Secret Of The Sky Clock",
+                    "lr3345ol": "100 Coins"
+                },
+                "values": {
+                    "12vvm2dq": {
+                        "label": "At The Beginning Of The World",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1pyyoxv1": {
+                        "label": "Wallkick Abuse?",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qkee0zdq": {
+                        "label": "Wallkick Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q755d7p1": {
+                        "label": "Books Throughout The Port",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1gnndx6l": {
+                        "label": "Switch The Switches Part 7",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qznne02q": {
+                        "label": "The Secret Of The Sky Clock",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lr3345ol": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "12vvm2dq",
+                "id": "j84v6w28",
+                "level_id": "69zkqlx9",
+                "var_name": "C14 Stars"
+            },
+            "Bowser's Mirror Castle": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "139972r1": "Mario Is Going Crazy!",
+                    "qvvvomrq": "In The Tower Of Hell",
+                    "le22zeml": "Mirror's Coins",
+                    "q5vvz27l": "Switch The Switches Final Part",
+                    "lx55oy31": "The Creepy Poisoned Secrets",
+                    "14oog2eq": "In The Dragon's Jaw",
+                    "1922yzyq": "100 Coins"
+                },
+                "values": {
+                    "139972r1": {
+                        "label": "Mario Is Going Crazy!",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qvvvomrq": {
+                        "label": "In The Tower Of Hell",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "le22zeml": {
+                        "label": "Mirror's Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q5vvz27l": {
+                        "label": "Switch The Switches Final Part",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lx55oy31": {
+                        "label": "The Creepy Poisoned Secrets",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "14oog2eq": {
+                        "label": "In The Dragon's Jaw",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1922yzyq": {
+                        "label": "100 Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "139972r1",
+                "id": "rn1g49on",
+                "level_id": "r9gvjmj9",
+                "var_name": "C15 Stars"
+            },
+            "Database Geometry": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "10vvjxol": "Above The Spring",
+                    "qj77ng7q": "Stranger In A Corner",
+                    "q655r2vl": "Nosql Reds",
+                    "lmoo6d81": "The Quicksand block",
+                    "1w44onmq": "Above The Pit",
+                    "qoxxo55q": "Pick A Box"
+                },
+                "values": {
+                    "10vvjxol": {
+                        "label": "Above The Spring",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj77ng7q": {
+                        "label": "Stranger In A Corner",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q655r2vl": {
+                        "label": "Nosql Reds",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "lmoo6d81": {
+                        "label": "The Quicksand block",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "1w44onmq": {
+                        "label": "Above The Pit",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qoxxo55q": {
+                        "label": "Pick A Box",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "10vvjxol",
+                "id": "p85p3k7l",
+                "level_id": "owozemjd",
+                "var_name": "WC Stars"
+            }
+        }
     },
     {
         "name": "Super Mario 74",
