@@ -137,7 +137,8 @@ def get_singlestar_run_body(user_id, category_id, time, date, platform_id, emula
         ],
         "emulated": emulated,
         "video": video_link,
-        "comment": "Mod Note: Auto-added via api from AussieAdam, please reach out to aussieadam on speedrun.com or Aussieadam#0001 for any questions or issues",
+        "comment": "Mod Note: Auto-added via api from AussieAdam, please reach out to aussieadam on speedrun.com or "
+                   "Aussieadam#0001 for any questions or issues",
         "variables": {
             var_id: {
                 "type": "pre-defined",

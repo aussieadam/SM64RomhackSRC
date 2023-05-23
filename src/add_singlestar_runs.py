@@ -119,6 +119,7 @@ if __name__ == '__main__':
     no_matching_stars = []
     multiple_matching_stars = []
     missing_urls = []
+    missing_users = []
     for index, run in read_file.iterrows():
         # only want to upload video proof
         hack_name = run['Rom Hack Name']
@@ -165,6 +166,10 @@ if __name__ == '__main__':
         else:
             user_url = srcHelper.get_user(user_name)
             user_id = srcHelper.request_src(user_url)['data']['id']
+
+        if user_id is None:
+            missing_users.append(user_name)
+            continue
 
         #check the proof if youtube vid, if not, check if there's a backup video
         if 'youtube' not in run['Proof'] and 'youtu.be' not in run['Proof'] and run['Backup Video'] is not None and run['Backup Video'] in ['','nan']:
@@ -231,3 +236,6 @@ if __name__ == '__main__':
 
     for run in missing_urls:
         print(f'{run[0]}:{run[1]}:{run[2]}:  for {run[3]} missing youtube video proof')
+
+    for user in missing_users:
+        print(f'{user}:  missing from SRC')
