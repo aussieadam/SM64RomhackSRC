@@ -98,6 +98,8 @@ if __name__ == '__main__':
     run_data = []
     read_file = pd.read_excel(run_list, keep_default_na=False)
     no_matching_stars = []
+    missing_star_category = []
+    missing_star_or_level = []
     multiple_matching_stars = []
     missing_urls = []
     missing_users = []
@@ -118,7 +120,7 @@ if __name__ == '__main__':
         # did not return a game
         if len(game_res) == 0 or game_res is None:
             no_matching_stars.append(
-                [hack_name, course_name, star_name, "missing game from SRC or name doesn't match SRC"])
+                [hack_name, course_name, star_name])
             continue
         # multiple stars with same name
         if len(game_res) > 1:
@@ -128,7 +130,7 @@ if __name__ == '__main__':
         game_res = game_res[0]
         if 'final_record' not in game_res:
             # course or star not in game_res
-            no_matching_stars.append([hack_name, course_name, star_name, "Course Name or Star Name not found"])
+            missing_star_or_level.append([hack_name, course_name, star_name])
             continue
         final_res = game_res['final_record']
         game_id = final_res[0]
@@ -140,9 +142,7 @@ if __name__ == '__main__':
 
         if cat_id is None:
             # hack missing single stars, or the name of single star category isn't in get_game_level_star body
-            no_matching_stars.append([hack_name, course_name, star_name,
-                                      "Hack is missing a single star category or get_game_level_star doesn't have the "
-                                      "name of the category in SRC"])
+            missing_star_category.append([hack_name, course_name, star_name])
             continue
 
         # people without an SRC profile can still be added, these are hardcoded in SRCHelper
@@ -212,15 +212,22 @@ if __name__ == '__main__':
             post_src_res = srcHelper.post_src(runs_url, add_run_request_body, SRC_API_KEY)
             print(post_src_res)
         else:
-            print(run)
+            print(add_run_request_body)
 
+    # print all the issues, i separated them out into lists
     for multiple_match in multiple_matching_stars:
         print(f'{multiple_match[0]} has multiple stars named : {multiple_match[1]}')
 
     for non_matching in no_matching_stars:
+        print(f'{non_matching[0]} does not exist on SRC')
+
+    for missing_star_cat in missing_star_category:
         print(
-            f'{non_matching[0]} does not exist, has no coursed named {non_matching[1]} , or has no star named :'
-            f' {non_matching[2]}, my guess is: {non_matching[3]}')
+            f'{missing_star_cat[0]}, has no single star category within SRC or get_game_level_star is missing single '
+            f'star category')
+
+    for missing in missing_star_or_level:
+        print(f'{missing[0]} is missing course {missing[1]} or star {missing[2]}')
 
     for run in missing_urls:
         print(f'{run[0]}:{run[1]}:{run[2]}:  for {run[3]} missing youtube video proof')
