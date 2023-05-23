@@ -174,7 +174,7 @@ if __name__ == '__main__':
         #check the proof if youtube vid, if not, check if there's a backup video
         if run['Proof'] is not None and ('youtube' in run['Proof'] or 'youtu.be' in run['Proof']):
             run_url = run['Proof']
-        elif run['Backup Video'] is not None and run['Backup Video'] not in ['','nan']:
+        elif run['Backup Video'] is not None and run['Backup Video'] not in ['','nan'] and ('youtube' in run['Backup Video'] or 'youtu.be' in run['Backup Video']):
             run_url = run['Backup Video']
         else:
             missing_urls.append([hack_name,course_name,star_name,user_name])
