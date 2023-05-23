@@ -20,6 +20,8 @@ _h = dict(_HEADERS)
 _sleep_period = .75
 _retry_sleep = 30
 
+NON_SRC_USERS = ['Maha Maha', 'Cryogeon', 'Madghostek', 'WWMResident']
+
 
 # url help
 def get_runs_url():
@@ -27,14 +29,17 @@ def get_runs_url():
 
 
 def get_runs_for_game_category(game_id, category):
-    return f'https://www.speedrun.com/api/v1/runs?game={game_id}&category={category}&status=verified&orderby=verify-date&direction=desc&embed=players'
+    return f'https://www.speedrun.com/api/v1/runs?game={game_id}&category={category}&status=verified&orderby=verify' \
+           f'-date&direction=desc&embed=players'
 
 
 def get_leaderboard_for_game_category(game_id, category):
     return f'https://www.speedrun.com/api/v1/leaderboards/{game_id}/category/{category}?embed=players'
 
+
 def get_wr_for_game_category(game_id, category):
     return f'https://www.speedrun.com/api/v1/leaderboards/{game_id}/category/{category}?top=1&embed=players'
+
 
 def get_runs_for_game(game_id):
     return f'https://www.speedrun.com/api/v1/runs?game={game_id}&status=verified&orderby=verify-date&direction=desc'
@@ -72,25 +77,26 @@ def get_runs_by_user_game_cat(user_id, game_id, cat_id):
     return f'https://www.speedrun.com/api/v1/runs?user={user_id}&game={game_id}&category={cat_id}&max=200'
 
 
-def get_fullgame_run_body(user_id, time, date, platform_id, emulated, video_link, category_id):
+def get_fullgame_run_body(user_id, run_time, date, platform_id, emulated, video_link, category_id):
     return {'run': {
         "category": category_id,
         "date": date,
         "platform": platform_id,
         "verified": True,
         "times": {
-            "realtime": time
+            "realtime": run_time
         },
         "players": [
             {"rel": "user", "id": user_id}
         ],
         "emulated": emulated,
         "video": video_link,
-        "comment": "Mod Note: Auto-added via api from AussieAdam,please reach out to aussieadam on speedrun.com or Aussieadam#0001 for any questions or issues"
+        "comment": "Mod Note: Auto-added via api from AussieAdam,please reach out to aussieadam on speedrun.com or "
+                   "Aussieadam#0001 for any questions or issues"
     }}
 
 
-def get_fullgame_variable_run_body(user_id, time, date, platform_id, emulated, video_link, var_id, var_val_id,
+def get_fullgame_variable_run_body(user_id, run_time, date, platform_id, emulated, video_link, var_id, var_val_id,
                                    category_id):
     return {'run': {
         "category": category_id,
@@ -98,14 +104,15 @@ def get_fullgame_variable_run_body(user_id, time, date, platform_id, emulated, v
         "platform": platform_id,
         "verified": True,
         "times": {
-            "realtime": time
+            "realtime": run_time
         },
         "players": [
             {"rel": "user", "id": user_id}
         ],
         "emulated": emulated,
         "video": video_link,
-        "comment": "Mod Note: Auto-added via api from AussieAdam,please reach out to aussieadam on speedrun.com or Aussieadam#0001 for any questions or issues",
+        "comment": "Mod Note: Auto-added via api from AussieAdam,please reach out to aussieadam on speedrun.com or "
+                   "Aussieadam#0001 for any questions or issues",
         "variables": {
             var_id: {
                 "type": "pre-defined",
@@ -115,14 +122,14 @@ def get_fullgame_variable_run_body(user_id, time, date, platform_id, emulated, v
     }}
 
 
-def get_singlestar_run_body(user_id, category_id, time, date, platform_id, emulated, video_link, level_id, var_id,
-                            star_id,stupid_vars):
+def get_singlestar_run_body(user_id, category_id, run_time, date, platform_id, emulated, video_link, level_id, var_id,
+                            star_id, stupid_vars):
     rel = 'user'
-    id = "id"
+    id_param = "id"
     # probably do something less dumb
-    if user_id in ['Maha Maha','Cryogeon','Madghostek','WWMResident']:
+    if user_id in NON_SRC_USERS:
         rel = 'guest'
-        id = "name"
+        id_param = "name"
     run = {'run': {
         "category": category_id,
         "level": level_id,
@@ -130,10 +137,10 @@ def get_singlestar_run_body(user_id, category_id, time, date, platform_id, emula
         "platform": platform_id,
         "verified": True,
         "times": {
-            "realtime": time
+            "realtime": run_time
         },
         "players": [
-            {"rel": rel, id: user_id}
+            {"rel": rel, id_param: user_id}
         ],
         "emulated": emulated,
         "video": video_link,
@@ -146,7 +153,7 @@ def get_singlestar_run_body(user_id, category_id, time, date, platform_id, emula
             }
         }
     }}
-    for var_id,var_value in stupid_vars.items():
+    for var_id, var_value in stupid_vars.items():
         run['run']['variables'][var_id] = var_value
     return run
 
@@ -185,7 +192,8 @@ def request_src(url):
         return resp.json()
     elif resp.status_code != 200 and resp.status_code != 201:
         print(resp.text)
-        if resp.status_code == 400 and resp.json()['message'] == 'The selected category is for individual-level runs, but no level was selected.':
+        if resp.status_code == 400 and resp.json()[
+            'message'] == 'The selected category is for individual-level runs, but no level was selected.':
             return resp.json()
         else:
             raise requests.exceptions.RequestException
