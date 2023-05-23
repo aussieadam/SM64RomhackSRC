@@ -229,7 +229,7 @@ if __name__ == '__main__':
             f'single star category')
 
     for missing in missing_star_or_level:
-        print(f'{missing[0]} is missing course {missing[1]} or star {missing[2]} on SRC')
+        print(f'hack: {missing[0]} is missing course: {missing[1]} or star: {missing[2]} on SRC')
 
     for run in missing_urls:
         print(f'Hack {run[0]}: Course {run[1]}: Star {run[2]}: for {run[3]} missing youtube video proof')
