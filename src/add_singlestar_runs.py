@@ -230,7 +230,7 @@ if __name__ == '__main__':
         print(f'{missing[0]} is missing course {missing[1]} or star {missing[2]} on SRC')
 
     for run in missing_urls:
-        print(f'{run[0]}: {run[1]}: {run[2]}:  for {run[3]} missing youtube video proof')
+        print(f'Hack {run[0]}: Course {run[1]}: Star {run[2]}: for {run[3]} missing youtube video proof')
 
     for user in missing_users:
         print(f'{user}:  missing from SRC')
