@@ -1,4 +1,5 @@
 import argparse
+import time
 import dcd.SRCHelper as srcHelper
 import json
 import os
@@ -7,6 +8,7 @@ import pandas as pd
 
 # need to run get_romhacks.py first, you could couple them together, but I prefer separating, so I can use hacks.json
 # elsewhere without having to run a long method everytime
+start_time = time.time()
 
 parser = argparse.ArgumentParser(description="Add Single Star runs parser")
 
@@ -234,3 +236,5 @@ if __name__ == '__main__':
 
     for user in missing_users:
         print(f'{user}:  missing from SRC')
+
+    print(f"---Finished in {(time.time() - start_time)} seconds ---")
