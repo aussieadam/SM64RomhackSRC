@@ -172,12 +172,13 @@ if __name__ == '__main__':
             continue
 
         #check the proof if youtube vid, if not, check if there's a backup video
-        if 'youtube' not in run['Proof'] and 'youtu.be' not in run['Proof'] and run['Backup Video'] is not None and run['Backup Video'] in ['','nan']:
+        if run['Proof'] is not None and ('youtube' in run['Proof'] or 'youtu.be' in run['Proof']):
+            run_url = run['Proof']
+        elif run['Backup Video'] is not None and run['Backup Video'] not in ['','nan']:
             run_url = run['Backup Video']
         else:
-            run_url = run['Proof']
-        if run_url is None or run_url in ['','nan'] or ('youtube' not in run['Proof'] and 'youtu.be' not in run['Proof']):
             missing_urls.append([hack_name,course_name,star_name,user_name])
+            continue
 
         run_time = get_secs(str(run['Time']))
         run_date = run['Date'].strftime('%Y-%m-%d')
