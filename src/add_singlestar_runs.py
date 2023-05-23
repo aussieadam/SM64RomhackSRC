@@ -216,18 +216,18 @@ if __name__ == '__main__':
 
     # print all the issues, i separated them out into lists
     for multiple_match in multiple_matching_stars:
-        print(f'{multiple_match[0]} has multiple stars named : {multiple_match[1]}')
+        print(f'hack: {multiple_match[0]} has multiple stars named : {multiple_match[1]}')
 
     for non_matching in no_matching_stars:
-        print(f'{non_matching[0]} does not exist on SRC')
+        print(f'hack: {non_matching[0]} does not exist on SRC')
 
     for missing_star_cat in missing_star_category:
         print(
-            f'{missing_star_cat[0]}, has no single star category within SRC or get_game_level_star is missing single '
+            f'hack: {missing_star_cat[0]}, has no single star category within SRC or get_game_level_star is missing single '
             f'star category')
 
     for missing in missing_star_or_level:
-        print(f'{missing[0]} is missing course {missing[1]} or star {missing[2]}')
+        print(f'{missing[0]} is missing course {missing[1]} or star {missing[2]} on SRC')
 
     for run in missing_urls:
         print(f'{run[0]}:{run[1]}:{run[2]}:  for {run[3]} missing youtube video proof')
