@@ -1,5 +1,8 @@
 import dcd.SRCHelper as srcHelper
 import json
+import time
+
+start_time = time.time()
 
 if __name__ == '__main__':
     # this will write to local directory you are currently in, up to you to change it
@@ -59,3 +62,6 @@ if __name__ == '__main__':
                 url = page['uri']
     with open(hacks_file, 'w') as outfile:
         outfile.write(json.dumps(hacks, indent=4))
+
+    print(f"---Finished in {(time.time() - start_time)} seconds ---")
+
