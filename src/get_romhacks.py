@@ -2,7 +2,7 @@ import dcd.SRCHelper as srcHelper
 import json
 
 if __name__ == '__main__':
-    #this will write to local directory you are currently in, up to you to change it
+    # this will write to local directory you are currently in, up to you to change it
     hacks_file = 'hacks.json'
     hacks = []
     url = srcHelper.get_romhacks()
@@ -11,7 +11,7 @@ if __name__ == '__main__':
         # print(json.dumps(res, indent=4))
         for game in res['data']:
             # print(json.dumps(game, indent=4))
-            #moderator check to make sure we are all on every game
+            # moderator check to make sure we are all on every game
             if 'v8lyv4jm' not in game['moderators']:
                 print(f"{game['abbreviation']} is missing MarvJungs")
             if '18v52d5j' not in game['moderators']:
