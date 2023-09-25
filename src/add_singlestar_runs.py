@@ -112,7 +112,7 @@ if __name__ == '__main__':
         course_name = run['Course Name']
         star_name = run['Star Name']
         user_name = run['Runner']
-        if run['Type of Proof'] != 'Video':
+        if 'Type of Proof' in run and run['Type of Proof'] != 'Video':
             continue
         # check that the course name is filled out, ideally it always is, but we can search for stars without it
         if run['Course Name'] is not None and run['Course Name'] not in ['', 'nan']:
@@ -121,8 +121,8 @@ if __name__ == '__main__':
             game_res = get_star_details(game_name=hack_name, ss_star_name=star_name)
         # did not return a game
         if len(game_res) == 0 or game_res is None:
-            no_matching_stars.append(
-                [hack_name, course_name, star_name])
+            if hack_name not in no_matching_stars:
+                no_matching_stars.append(hack_name)
             continue
         # multiple stars with same name
         if len(game_res) > 1:
@@ -155,17 +155,20 @@ if __name__ == '__main__':
             user_id = users[user_name]
         else:
             user_url = srcHelper.get_user(user_name)
-            user_id = srcHelper.request_src(user_url)['data']['id']
+            user_res = srcHelper.request_src(user_url)
+            if 'status' in user_res and user_res['status'] == 404:
+                missing_users.append(user_name)
+                continue
+            else:
+                user_id = user_res['data']['id']
             users[user_name] = user_id
 
-        if user_id is None:
-            missing_users.append(user_name)
-            continue
+
 
         # check the proof if YouTube vid, if not, check if there's a backup video
-        if run['Proof'] is not None and ('youtube' in run['Proof'] or 'youtu.be' in run['Proof']):
+        if run['Proof'] is not None and ('youtube' in run['Proof'] or 'youtu.be' in run['Proof'] or 'twitch.tv' in run['Proof']):
             run_url = run['Proof']
-        elif run['Backup Video'] is not None and run['Backup Video'] not in ['', 'nan'] and (
+        elif 'Backup Video' in run and run['Backup Video'] is not None and run['Backup Video'] not in ['', 'nan'] and (
                 'youtube' in run['Backup Video'] or 'youtu.be' in run['Backup Video']):
             run_url = run['Backup Video']
         else:
@@ -221,7 +224,7 @@ if __name__ == '__main__':
         print(f'hack: {multiple_match[0]} has multiple stars named : {multiple_match[1]}')
 
     for non_matching in no_matching_stars:
-        print(f'hack: {non_matching[0]} does not exist on SRC')
+        print(f'hack: {non_matching} does not exist on SRC')
 
     for missing_star_cat in missing_star_category:
         print(

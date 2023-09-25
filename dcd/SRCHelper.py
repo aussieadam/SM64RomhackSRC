@@ -5,7 +5,7 @@ import requests
 # stole these from firefox, default headers were redirecting too many times
 _HEADERS = {
     'Host': 'www.speedrun.com',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0',
+    'User-Agent': 'src-stats/1.0',
     'Upgrade-Insecure-Requests': '1',
     'TE': 'trailers',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
@@ -20,7 +20,7 @@ _h = dict(_HEADERS)
 _sleep_period = .75
 _retry_sleep = 30
 
-NON_SRC_USERS = ['Maha Maha', 'Cryogeon', 'Madghostek', 'WWMResident']
+NON_SRC_USERS = ['Maha Maha', 'Cryogeon', 'Madghostek', 'WWMResident','atmpas','CeeSZee','255']
 
 
 # url help
@@ -192,11 +192,14 @@ def request_src(url):
         return resp.json()
     elif resp.status_code != 200 and resp.status_code != 201:
         print(resp.text)
-        if resp.status_code == 400 and resp.json()[
-            'message'] == 'The selected category is for individual-level runs, but no level was selected.':
+        if (resp.status_code == 400 and resp.json()[
+            'message'] == 'The selected category is for individual-level runs, but no level was selected.') \
+                or resp.status_code == 404:
             return resp.json()
         else:
             raise requests.exceptions.RequestException
+
+
     else:
         return None
 

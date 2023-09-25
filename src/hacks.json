@@ -3777,6 +3777,44 @@
                 "id": "5lyx2wkn",
                 "level_id": "5wk35yq9",
                 "var_name": "Slide, Slide Canyon Stars"
+            },
+            "Metal, Metal Canyon": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1399dkk1": "Under the Slanted Platform"
+                },
+                "values": {
+                    "1399dkk1": {
+                        "label": "Under the Slanted Platform",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "1399dkk1",
+                "id": "6njyq7jn",
+                "level_id": "592y2xrw",
+                "var_name": "Metal, Metal Canyon Stars"
+            },
+            "Vanish, Vanish Canyon": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qvvvg25q": "Vanish Through the Hole"
+                },
+                "values": {
+                    "qvvvg25q": {
+                        "label": "Vanish Through the Hole",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "qvvvg25q",
+                "id": "kn09zpon",
+                "level_id": "29vq4ond",
+                "var_name": "Vanish, Vanish Canyon Stars"
             }
         }
     },
@@ -5715,6 +5753,17 @@
                 "var_name": "Extras"
             }
         }
+    },
+    {
+        "name": "Eternal Realm",
+        "id": "76r4xo51",
+        "abbreviation": "Eternal_Realm",
+        "categories": {
+            "0 Star": "wkpl9382",
+            "25 Star": "7dgex6l2",
+            "47 Star": "mkepv4n2"
+        },
+        "variables": {}
     },
     {
         "name": "Forever BLJ Control",
@@ -12234,6 +12283,21 @@
                 "id": "e8mr6xel",
                 "level_id": "rdn2g3nd",
                 "var_name": "SoOD Stars"
+            },
+            "Animosity Mansions": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "le229ypl": "Secret Warp"
+                },
+                "values": {
+                    "le229ypl": {
+                        "label": "Secret Warp"
+                    }
+                },
+                "default": "le229ypl",
+                "id": "ql6w4kkn",
+                "level_id": "ldy80qjw",
+                "var_name": "AM Stars"
             }
         }
     },
@@ -12737,7 +12801,7 @@
                 "level_id": "rdqmor19",
                 "var_name": "Levora Sphere"
             },
-            "Quantum Qube - Yellow": {
+            "Quantum Qube - Yellow Side": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "814md6w1": "Parkour on Pyramids",
@@ -12772,7 +12836,7 @@
                 "level_id": "n93xlxe9",
                 "var_name": "Quantum Qube - Yellow"
             },
-            "Quantum Qube - Green": {
+            "Quantum Qube - Green Side": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "5q8vzvrl": "Bounce and Slide",
@@ -12807,7 +12871,7 @@
                 "level_id": "rdnmxmv9",
                 "var_name": "Quantum Qube - Green"
             },
-            "Quantum Qube - Blue": {
+            "Quantum Qube - Blue Side": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "rqv2d251": "Secrets in the middle",
@@ -12842,7 +12906,7 @@
                 "level_id": "gdr0o0zd",
                 "var_name": "Quantum Qube - Blue"
             },
-            "Quantum Qube - Red": {
+            "Quantum Qube - Red Side": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "21g0gzxq": "Fly high on the red side",
@@ -12877,7 +12941,7 @@
                 "level_id": "ywev3vrd",
                 "var_name": "Quantum Qube - Red"
             },
-            "Quantum Qube - Orange": {
+            "Quantum Qube - Orange Side": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "81w28x91": "Up in the middle",
@@ -12912,7 +12976,7 @@
                 "level_id": "r9gmn5k9",
                 "var_name": "Quantum Qube - Orange"
             },
-            "Quantum Qube - Purple": {
+            "Quantum Qube - Purple Side": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "81pknrel": "Star in the purple cage",
@@ -13010,33 +13074,760 @@
         "categories": {
             "8 Star": "5dwq35nd",
             "51 Star": "wk6rq7rk",
-            "74 Star": "n2yrl5md"
+            "74 Star": "n2yrl5md",
+            "Single Star": "zdn3y7n2",
+            "Stage RTA": "q25p19jd"
         },
         "variables": {
             "Version": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "4lxnxxr1": "Lite",
-                    "0q5roon1": "Hardcore"
+                    "1gn9626l": "Lite",
+                    "qzngwx2q": "Hardcore"
                 },
                 "values": {
-                    "4lxnxxr1": {
-                        "label": "Lite",
-                        "rules": null,
+                    "1gn9626l": {
+                        "label": "Lite"
+                    },
+                    "qzngwx2q": {
+                        "label": "Hardcore"
+                    }
+                },
+                "default": "1gn9626l",
+                "id": "wl3e44vn"
+            },
+            "Meltwater Madness": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lr3xdyol": "Is This A Floody Joke?",
+                    "1dk6n3pl": "Wildlife Assistant",
+                    "q8k43dyq": "Sinkhole Diver",
+                    "qyz7mj61": "Box Heaven",
+                    "ln8e7zol": "Drain This Mess",
+                    "10v6y9ol": "Drown This Mess",
+                    "qj72oe7q": "100 Coin Star"
+                },
+                "values": {
+                    "lr3xdyol": {
+                        "label": "Is This A Floody Joke?",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
-                    "0q5roon1": {
-                        "label": "Hardcore",
-                        "rules": null,
+                    "1dk6n3pl": {
+                        "label": "Wildlife Assistant",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
+                        }
+                    },
+                    "q8k43dyq": {
+                        "label": "Sinkhole Diver",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qyz7mj61": {
+                        "label": "Box Heaven",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "ln8e7zol": {
+                        "label": "Drain This Mess",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "10v6y9ol": {
+                        "label": "Drown This Mess",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qj72oe7q": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
                         }
                     }
                 },
-                "default": "4lxnxxr1",
-                "id": "rn1j1zvn"
+                "default": "lr3xdyol",
+                "id": "wley444n",
+                "level_id": "o9x8ok1w",
+                "var_name": "C1 Stars"
+            },
+            "Phyto-Phantasy": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q65vwgvl": "Inflammation?",
+                    "lmo2ew81": "Viral Infection",
+                    "1w47jrmq": "The Powerhouse of the Cell",
+                    "qoxjg25q": "Atop the Filaments",
+                    "139xj4r1": "Membrane Folds",
+                    "qvvx0zrq": "Collect Sugar Molecules",
+                    "le2n0vml": "100 Coin Star"
+                },
+                "values": {
+                    "q65vwgvl": {
+                        "label": "Inflammation?",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lmo2ew81": {
+                        "label": "Viral Infection",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1w47jrmq": {
+                        "label": "The Powerhouse of the Cell",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qoxjg25q": {
+                        "label": "Atop the Filaments",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "139xj4r1": {
+                        "label": "Membrane Folds",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qvvx0zrq": {
+                        "label": "Collect Sugar Molecules",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "le2n0vml": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "q65vwgvl",
+                "id": "68kyxx3l",
+                "level_id": "4953zyjd",
+                "var_name": "C2 Stars"
+            },
+            "The Hot Stove Plate": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q5v4m77l": "Turning Up the Heat",
+                    "lx5gkd31": "The Fragile Pillar",
+                    "14o964eq": "They are Chucksters!",
+                    "192xvdyq": "A Terrible Idea",
+                    "12v9k4dq": "Tick Tock Trauma",
+                    "1pyez6v1": "The Depths of Hell",
+                    "qkeo36dq": "100 Coin Star"
+                },
+                "values": {
+                    "q5v4m77l": {
+                        "label": "Turning Up the Heat",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lx5gkd31": {
+                        "label": "The Fragile Pillar",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "14o964eq": {
+                        "label": "They are Chucksters!",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "192xvdyq": {
+                        "label": "A Terrible Idea",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "12v9k4dq": {
+                        "label": "Tick Tock Trauma",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1pyez6v1": {
+                        "label": "The Depths of Hell",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qkeo36dq": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "q5v4m77l",
+                "id": "j84v1128",
+                "level_id": "rdqpog19",
+                "var_name": "C3 Stars"
+            },
+            "Nocturnal Towers": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q752ozp1": "High Tower Parkour",
+                    "1gn96o6l": "Jailbreak",
+                    "qzngwy2q": "Turtle Coaster",
+                    "lr3xd6ol": "Uplifting Arrows",
+                    "1dk6nopl": "8 Treacherous Coins",
+                    "q8k43ryq": "Errors on Arrows",
+                    "qyz7m861": "100 Coin Star"
+                },
+                "values": {
+                    "q752ozp1": {
+                        "label": "High Tower Parkour",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1gn96o6l": {
+                        "label": "Jailbreak",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qzngwy2q": {
+                        "label": "Turtle Coaster",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lr3xd6ol": {
+                        "label": "Uplifting Arrows",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1dk6nopl": {
+                        "label": "8 Treacherous Coins",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q8k43ryq": {
+                        "label": "Errors on Arrows",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qyz7m861": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "q752ozp1",
+                "id": "rn1g66on",
+                "level_id": "5d7nxlvw",
+                "var_name": "C4 Stars"
+            },
+            "Rebuilding of a Town": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "ln8e7kol": "Scaffolding Scare",
+                    "10v6y3ol": "To Vanish or Not to Vanish",
+                    "qj72oj7q": "Shady Jumps",
+                    "q65vw3vl": "The Floor is Lava",
+                    "lmo2ez81": "The Brand-New Chimney",
+                    "1w47j3mq": "Concrete Cash",
+                    "qoxjgd5q": "100 Coin Star"
+                },
+                "values": {
+                    "ln8e7kol": {
+                        "label": "Scaffolding Scare",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "10v6y3ol": {
+                        "label": "To Vanish or Not to Vanish",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qj72oj7q": {
+                        "label": "Shady Jumps",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q65vw3vl": {
+                        "label": "The Floor is Lava",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lmo2ez81": {
+                        "label": "The Brand-New Chimney",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1w47j3mq": {
+                        "label": "Concrete Cash",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qoxjgd5q": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "ln8e7kol",
+                "id": "p85p007l",
+                "level_id": "kwjx63zd",
+                "var_name": "C5 Stars"
+            },
+            "Blue Flare Crater": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "139xj3r1": "Disrupt the Incineration",
+                    "qvvx03rq": "Melt-Resistant Boxes",
+                    "le2n0dml": "The Tiny Torture Cage",
+                    "q5v4mk7l": "Crazier Jumps with Crazier Boxes",
+                    "lx5gk331": "Fright Flight",
+                    "14o963eq": "The Power of Love",
+                    "192xv7yq": "100 Coin Star"
+                },
+                "values": {
+                    "139xj3r1": {
+                        "label": "Disrupt the Incineration",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qvvx03rq": {
+                        "label": "Melt-Resistant Boxes",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "le2n0dml": {
+                        "label": "The Tiny Torture Cage",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q5v4mk7l": {
+                        "label": "Crazier Jumps with Crazier Boxes",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lx5gk331": {
+                        "label": "Fright Flight",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "14o963eq": {
+                        "label": "The Power of Love",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "192xv7yq": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "139xj3r1",
+                "id": "38dekk0n",
+                "level_id": "owoo5lyw",
+                "var_name": "C6 Stars"
+            },
+            "Baratrok Sphere": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "12v9k3dq": "The Nightmares Return",
+                    "1pyez8v1": "Shocking Shell Shprint",
+                    "qkeo37dq": "Silver Coins of the Abyss",
+                    "q752okp1": "A Long Way Up",
+                    "1gn96y6l": "Quirky Quicksand Obstacles",
+                    "qzngwk2q": "Excessive Eye Strain",
+                    "lr3xdnol": "100 Coin Star"
+                },
+                "values": {
+                    "12v9k3dq": {
+                        "label": "The Nightmares Return",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1pyez8v1": {
+                        "label": "Shocking Shell Shprint",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qkeo37dq": {
+                        "label": "Silver Coins of the Abyss",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q752okp1": {
+                        "label": "A Long Way Up",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1gn96y6l": {
+                        "label": "Quirky Quicksand Obstacles",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qzngwk2q": {
+                        "label": "Excessive Eye Strain",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lr3xdnol": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "12v9k3dq",
+                "id": "r8rexx0l",
+                "level_id": "xd1ky66w",
+                "var_name": "C7 Stars"
+            },
+            "Danger Dice - Pink Side": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1dk6nrpl": "Star 1",
+                    "q8k435yq": "Star 2",
+                    "qyz7m361": "Star 3"
+                },
+                "values": {
+                    "1dk6nrpl": {
+                        "label": "Star 1",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q8k435yq": {
+                        "label": "Star 2",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qyz7m361": {
+                        "label": "Star 3",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "1dk6nrpl",
+                "id": "5lyeddg8",
+                "level_id": "ewp1oezw",
+                "var_name": "DD Pink Stars"
+            },
+            "Danger Dice - Indigo Side": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "ln8e7rol": "Star 1",
+                    "10v6yeol": "Star 2",
+                    "qj72oy7q": "Star 3"
+                },
+                "values": {
+                    "ln8e7rol": {
+                        "label": "Star 1",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "10v6yeol": {
+                        "label": "Star 2",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qj72oy7q": {
+                        "label": "Star 3",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "ln8e7rol",
+                "id": "e8mpxxw8",
+                "level_id": "y9m7gy19",
+                "var_name": "DD Indigo Stars"
+            },
+            "Danger Dice - Brown Side": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q65vwkvl": "Star 1",
+                    "lmo2ej81": "Star 2",
+                    "1w47jwmq": "Star 3"
+                },
+                "values": {
+                    "q65vwkvl": {
+                        "label": "Star 1",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lmo2ej81": {
+                        "label": "Star 2",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1w47jwmq": {
+                        "label": "Star 3",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "q65vwkvl",
+                "id": "ylq3ddw8",
+                "level_id": "5wk5e8qw",
+                "var_name": "DD Brown Stars"
+            },
+            "Danger Dice - Turquoise Side": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qoxjgw5q": "Star 1",
+                    "139xjer1": "Star 2",
+                    "qvvx0wrq": "Star 3"
+                },
+                "values": {
+                    "qoxjgw5q": {
+                        "label": "Star 1",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "139xjer1": {
+                        "label": "Star 2",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qvvx0wrq": {
+                        "label": "Star 3",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qoxjgw5q",
+                "id": "gnx3mmxn",
+                "level_id": "5922r3r9",
+                "var_name": "DD Turquoise Stars"
+            },
+            "Danger Dice - Gray Side": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "le2n0gml": "Star 1",
+                    "q5v4me7l": "Star 2",
+                    "lx5gkw31": "Star 3"
+                },
+                "values": {
+                    "le2n0gml": {
+                        "label": "Star 1",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q5v4me7l": {
+                        "label": "Star 2",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lx5gkw31": {
+                        "label": "Star 3",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "le2n0gml",
+                "id": "dlo9xx5l",
+                "level_id": "29v40jn9",
+                "var_name": "DD Gray Stars"
+            },
+            "Danger Dice - White Side": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "14o96eeq": "Star 1",
+                    "192xvgyq": "Star 2",
+                    "12v9kedq": "Star 3"
+                },
+                "values": {
+                    "14o96eeq": {
+                        "label": "Star 1",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "192xvgyq": {
+                        "label": "Star 2",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "12v9kedq": {
+                        "label": "Star 3",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "14o96eeq",
+                "id": "jlz2007l",
+                "level_id": "xd44enpd",
+                "var_name": "DD White Stars"
+            },
+            "Golden Danger Dice": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1pyezwv1": "Star 1",
+                    "qkeo3kdq": "Star 2",
+                    "q752oep1": "Star 3"
+                },
+                "values": {
+                    "1pyezwv1": {
+                        "label": "Star 1",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qkeo3kdq": {
+                        "label": "Star 2",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q752oep1": {
+                        "label": "Star 3",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "1pyezwv1",
+                "id": "9l79mmzn",
+                "level_id": "xd0mnl1w",
+                "var_name": "DD Golden Stars"
+            },
+            "Color-Coded Carnage": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1gn96r6l": "Red/Silver Coin Star"
+                },
+                "values": {
+                    "1gn96r6l": {
+                        "label": "Red/Silver Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "1gn96r6l",
+                "id": "yn23kzgl",
+                "level_id": "rw68gr7d",
+                "var_name": "CCC Star"
             }
         }
     },
@@ -14508,11 +15299,19 @@
             "The Boos' Playplace": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "4lxemg41": "Switched and Boxes"
+                    "4lxemg41": "Switched and Boxes",
+                    "q5vvywrl": "Behind the Portrait"
                 },
                 "values": {
                     "4lxemg41": {
                         "label": "Switched and Boxes",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q5vvywrl": {
+                        "label": "Behind the Portrait",
                         "rules": null,
                         "flags": {
                             "miscellaneous": null
@@ -14523,6 +15322,25 @@
                 "id": "6njqdovl",
                 "level_id": "rdq3jkgw",
                 "var_name": "TBP Stars"
+            },
+            "Deep Dark Lagoon": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lx55r2j1": "What's That in the Distance?"
+                },
+                "values": {
+                    "lx55r2j1": {
+                        "label": "What's That in the Distance?",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "lx55r2j1",
+                "id": "onv92z08",
+                "level_id": "y9ml255w",
+                "var_name": "DDL Stars"
             }
         }
     },
@@ -14544,12 +15362,12 @@
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "qj77j27q": "Weird Hut Villager",
-                    "q6553vvl": "Fight At The Coast",
-                    "lmooz281": "Red Coins Of Light Tower",
+                    "q6553vvl": "Fight at the Coast",
+                    "lmooz281": "Red Coins of Light Tower",
                     "1w4437mq": "Green Hill Secrets",
                     "qoxxdj5q": "Troll Star Beach Party",
                     "13993xr1": "The Highest Point",
-                    "qvvv3xrq": "100 Coin Star"
+                    "qvvv3xrq": "50 Coin Star"
                 },
                 "values": {
                     "qj77j27q": {
@@ -14560,17 +15378,17 @@
                         }
                     },
                     "q6553vvl": {
-                        "label": "Fight At The Coast",
+                        "label": "Fight at the Coast",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "lmooz281": {
-                        "label": "Red Coins Of Light Tower",
+                        "label": "Red Coins of Light Tower",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "1w4437mq": {
@@ -14595,10 +15413,10 @@
                         }
                     },
                     "qvvv3xrq": {
-                        "label": "100 Coin Star",
+                        "label": "50 Coin Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -14611,12 +15429,12 @@
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "10vv36ol": "Fountain Plumber Issues",
-                    "le22dnml": "Scale The Casino",
+                    "le22dnml": "Scale the Casino",
                     "q5vvk47l": "Red Switched Reversed Room",
                     "lx553g31": "Reds Breakdown",
                     "14oo39eq": "Saint Elmo's Light",
                     "19227xyq": "Same Room, Another Trial",
-                    "12vv39dq": "100 Coin Star"
+                    "12vv39dq": "50 Coin Star"
                 },
                 "values": {
                     "10vv36ol": {
@@ -14627,10 +15445,10 @@
                         }
                     },
                     "le22dnml": {
-                        "label": "Scale The Casino",
+                        "label": "Scale the Casino",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "q5vvk47l": {
@@ -14662,10 +15480,10 @@
                         }
                     },
                     "12vv39dq": {
-                        "label": "100 Coin Star",
+                        "label": "50 Coin Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -14680,59 +15498,59 @@
                     "ln88r8ol": "Yet Another Fountain Trouble",
                     "1pyy8ev1": "Shopping Reds",
                     "qkee7odq": "Rooftop Run",
-                    "q755k2p1": "Drop On The Red Alcove",
+                    "q755k2p1": "Drop on the Red Alcove",
                     "1gnny96l": "Spring Madness",
                     "qznnkg2q": "Intended Not Intended Jump?",
-                    "lr33nxol": "100 Coin Star"
+                    "lr33nxol": "Roof Above the Spawn"
                 },
                 "values": {
                     "ln88r8ol": {
                         "label": "Yet Another Fountain Trouble",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "1pyy8ev1": {
                         "label": "Shopping Reds",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "qkee7odq": {
                         "label": "Rooftop Run",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "q755k2p1": {
-                        "label": "Drop On The Red Alcove",
-                        "rules": null,
+                        "label": "Drop on the Red Alcove",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "1gnny96l": {
                         "label": "Spring Madness",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "qznnkg2q": {
                         "label": "Intended Not Intended Jump?",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "lr33nxol": {
-                        "label": "100 Coin Star",
-                        "rules": null,
+                        "label": "Roof Above the Spawn",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -14744,20 +15562,20 @@
             "Space Twinkle Park": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "qyzz3z61": "Not Too Much Of A Deal Reds",
+                    "qyzz3z61": "Not too Much of a Deal Reds",
                     "1dkkr6pl": "Blue Star Secrets",
                     "q8kk54yq": "Tower Wall Kicks Will Work",
                     "qyzz3761": "Space Park Peak",
-                    "ln88reol": "Edge Between Slippery And Climbable",
-                    "10vv30ol": "High Star Of Shrink Platforms",
-                    "qj77jw7q": "100 Coin Star"
+                    "ln88reol": "Edge Between Slippery and Climbable",
+                    "10vv30ol": "High Star of Shrink Platforms",
+                    "qj77jw7q": "50 Coin Star"
                 },
                 "values": {
                     "qyzz3z61": {
-                        "label": "Not Too Much Of A Deal Reds",
+                        "label": "Not too Much of a Deal Reds",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "1dkkr6pl": {
@@ -14782,24 +15600,24 @@
                         }
                     },
                     "ln88reol": {
-                        "label": "Edge Between Slippery And Climbable",
+                        "label": "Edge Between Slippery and Climbable",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "10vv30ol": {
-                        "label": "High Star Of Shrink Platforms",
+                        "label": "High Star of Shrink Platforms",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qj77jw7q": {
-                        "label": "100 Coin Star",
+                        "label": "50 Coin Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -14812,12 +15630,12 @@
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "q8kk5kyq": "Penguin Master Swim",
-                    "q6553yvl": "Climb To Wooden Gateway",
+                    "q6553yvl": "Climb to Wooden Gateway",
                     "lmooz881": "Deadly Ice Cavern",
                     "1w443emq": "Underwater Adventure Reds",
-                    "qoxxdm5q": "Well, This One Is Hidden",
+                    "qoxxdm5q": "Well, This One is Hidden",
                     "13993wr1": "Half-Dried Lagoon",
-                    "qvvv36rq": "100 Coin Star"
+                    "qvvv36rq": "50 Coin Star"
                 },
                 "values": {
                     "q8kk5kyq": {
@@ -14828,10 +15646,10 @@
                         }
                     },
                     "q6553yvl": {
-                        "label": "Climb To Wooden Gateway",
+                        "label": "Climb to Wooden Gateway",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "lmooz881": {
@@ -14849,10 +15667,10 @@
                         }
                     },
                     "qoxxdm5q": {
-                        "label": "Well, This One Is Hidden",
+                        "label": "Well, This One is Hidden",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "13993wr1": {
@@ -14863,10 +15681,10 @@
                         }
                     },
                     "qvvv36rq": {
-                        "label": "100 Coin Star",
+                        "label": "50 Coin Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -14879,12 +15697,12 @@
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "1dkkrkpl": "Thwomp's Lava Treasure",
-                    "le22d3ml": "Blue Switch And Flippanels",
-                    "q5vvkx7l": "Secret Star In Passage",
+                    "le22d3ml": "Blue Switch and Flippanels",
+                    "q5vvkx7l": "Secret Star in Passage",
                     "lx553031": "Switching Switch Switchness",
                     "14oo3keq": "Not-Red-Coin-Star Lavabounce",
-                    "192275yq": "Escape From The Level",
-                    "12vv3odq": "100 Coin Star"
+                    "192275yq": "Escape from the Level",
+                    "12vv3odq": "50 Coin Star"
                 },
                 "values": {
                     "1dkkrkpl": {
@@ -14895,17 +15713,17 @@
                         }
                     },
                     "le22d3ml": {
-                        "label": "Blue Switch And Flippanels",
+                        "label": "Blue Switch and Flippanels",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "q5vvkx7l": {
-                        "label": "Secret Star In Passage",
+                        "label": "Secret Star in Passage",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "lx553031": {
@@ -14923,17 +15741,17 @@
                         }
                     },
                     "192275yq": {
-                        "label": "Escape From The Level",
+                        "label": "Escape from the Level",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "12vv3odq": {
-                        "label": "100 Coin Star",
+                        "label": "50 Coin Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -14947,60 +15765,60 @@
                 "choices": {
                     "lr33n3ol": "I Love Super Mario 74",
                     "1pyy84v1": "Actual Level Exploration",
-                    "qkee79dq": "My Head Is Spinning",
-                    "q755k9p1": "Way Too Low And Way Too High",
-                    "1gnnye6l": "Is This Ee? More Like MC!",
-                    "qznnkv2q": "Have You Found Star 7?",
-                    "lr33njol": "100 Coin Star"
+                    "qkee79dq": "My Head is Spinning",
+                    "q755k9p1": "Way Too Low and Way Too High",
+                    "1gnnye6l": "Is This EE? More Like MC!",
+                    "qznnkv2q": "Have you found Star 7?",
+                    "lr33njol": "Rotating Secrets"
                 },
                 "values": {
                     "lr33n3ol": {
                         "label": "I Love Super Mario 74",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "1pyy84v1": {
                         "label": "Actual Level Exploration",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "qkee79dq": {
-                        "label": "My Head Is Spinning",
-                        "rules": null,
+                        "label": "My Head is Spinning",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "q755k9p1": {
-                        "label": "Way Too Low And Way Too High",
-                        "rules": null,
+                        "label": "Way Too Low and Way Too High",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "1gnnye6l": {
-                        "label": "Is This Ee? More Like MC!",
-                        "rules": null,
+                        "label": "Is This EE? More Like MC!",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qznnkv2q": {
-                        "label": "Have You Found Star 7?",
-                        "rules": null,
+                        "label": "Have you found Star 7?",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "lr33njol": {
-                        "label": "100 Coin Star",
-                        "rules": null,
+                        "label": "Rotating Secrets",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -15012,27 +15830,27 @@
             "Final Cap Factory": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "qznnkn2q": "Flying Into The Star",
-                    "1dkkrvpl": "Vanishing For Reds",
+                    "qznnkn2q": "Flying into the Star",
+                    "1dkkrvpl": "Vanishing for Reds",
                     "q8kk52yq": "Tight Metal Cap Timing",
-                    "qyzz3561": "Flying In Toxic Gas",
+                    "qyzz3561": "Flying in Toxic Gas",
                     "ln88rdol": "Another Flying, Vanish Time!",
-                    "10vv35ol": "Power Of Three, Metal Up The Switch",
-                    "qj77jz7q": "100 Coin Star"
+                    "10vv35ol": "Power of Three, Metal Up the Switch",
+                    "qj77jz7q": "50 Coin Star"
                 },
                 "values": {
                     "qznnkn2q": {
-                        "label": "Flying Into The Star",
+                        "label": "Flying into the Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "1dkkrvpl": {
-                        "label": "Vanishing For Reds",
+                        "label": "Vanishing for Reds",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "q8kk52yq": {
@@ -15043,10 +15861,10 @@
                         }
                     },
                     "qyzz3561": {
-                        "label": "Flying In Toxic Gas",
+                        "label": "Flying in Toxic Gas",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "ln88rdol": {
@@ -15057,17 +15875,17 @@
                         }
                     },
                     "10vv35ol": {
-                        "label": "Power Of Three, Metal Up The Switch",
+                        "label": "Power of Three, Metal Up the Switch",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qj77jz7q": {
-                        "label": "100 Coin Star",
+                        "label": "50 Coin Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -15082,10 +15900,10 @@
                     "1gnnyn6l": "Hot Warm-Up",
                     "q65534vl": "Garbage Placed Star",
                     "lmoozx81": "Metal Capped Red, Red Coins",
-                    "1w443mmq": "Another Way Around Icy Slide",
-                    "qoxxdy5q": "Ab Challenge - Shell Surf To Tunnel End!",
-                    "13993vr1": "Ab Challenge - Secrets",
-                    "qvvv34rq": "100 Coin Star"
+                    "1w443mmq": "Another Way around Icy Slide",
+                    "qoxxdy5q": "AB Challenge - Shell Surf to Tunnel End!",
+                    "13993vr1": "AB Challenge - Secrets",
+                    "qvvv34rq": "50 Coin Star"
                 },
                 "values": {
                     "1gnnyn6l": {
@@ -15110,31 +15928,31 @@
                         }
                     },
                     "1w443mmq": {
-                        "label": "Another Way Around Icy Slide",
+                        "label": "Another Way around Icy Slide",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qoxxdy5q": {
-                        "label": "Ab Challenge - Shell Surf To Tunnel End!",
+                        "label": "AB Challenge - Shell Surf to Tunnel End!",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "13993vr1": {
-                        "label": "Ab Challenge - Secrets",
+                        "label": "AB Challenge - Secrets",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qvvv34rq": {
-                        "label": "100 Coin Star",
+                        "label": "50 Coin Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -15146,48 +15964,48 @@
             "Water Shelter": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "q755k5p1": "Find The Shelter Height",
-                    "le22dkml": "Getting Out With Flooded Reds",
-                    "q5vvko7l": "First Travel To Toxic Segment",
-                    "lx553x31": "False Aquarium And Secret",
-                    "14oo3xeq": "I Am Metally Unstable",
+                    "q755k5p1": "Find the Shelter Height",
+                    "le22dkml": "Getting Out with Flooded Reds",
+                    "q5vvko7l": "First Travel to Toxic Segment",
+                    "lx553x31": "False Aquarium and Secret",
+                    "14oo3xeq": "I am Metally Unstable",
                     "192274yq": "Fully Drained, Fully Scared",
-                    "12vv35dq": "100 Coin Star"
+                    "12vv35dq": "50 Coin Star"
                 },
                 "values": {
                     "q755k5p1": {
-                        "label": "Find The Shelter Height",
+                        "label": "Find the Shelter Height",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "le22dkml": {
-                        "label": "Getting Out With Flooded Reds",
+                        "label": "Getting Out with Flooded Reds",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "q5vvko7l": {
-                        "label": "First Travel To Toxic Segment",
+                        "label": "First Travel to Toxic Segment",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "lx553x31": {
-                        "label": "False Aquarium And Secret",
+                        "label": "False Aquarium and Secret",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "14oo3xeq": {
-                        "label": "I Am Metally Unstable",
+                        "label": "I am Metally Unstable",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "192274yq": {
@@ -15198,10 +16016,10 @@
                         }
                     },
                     "12vv35dq": {
-                        "label": "100 Coin Star",
+                        "label": "50 Coin Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -15219,56 +16037,56 @@
                     "q755knp1": "Pink",
                     "1gnnyj6l": "Hole",
                     "qznnk62q": "Window",
-                    "lr33nzol": "100 Coin Star"
+                    "lr33nzol": "Fall"
                 },
                 "values": {
                     "lr33n3ml": {
                         "label": "Tower",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "1pyy87v1": {
                         "label": "Torch",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "qkee7rdq": {
                         "label": "Troll",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "q755knp1": {
                         "label": "Pink",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "1gnnyj6l": {
                         "label": "Hole",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "qznnk62q": {
                         "label": "Window",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "lr33nzol": {
-                        "label": "100 Coin Star",
-                        "rules": null,
+                        "label": "Fall",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -15286,56 +16104,56 @@
                     "qyzz3x61": "Factory",
                     "ln88ryol": "Fly",
                     "10vv3xol": "Warp",
-                    "qj77jg7q": "100 Coin Star"
+                    "qj77jg7q": "Box"
                 },
                 "values": {
                     "qznnkn8q": {
                         "label": "Sand",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "1dkkr4pl": {
                         "label": "Town",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "q8kk5eyq": {
                         "label": "Rail",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "qyzz3x61": {
                         "label": "Factory",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "ln88ryol": {
                         "label": "Fly",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "10vv3xol": {
                         "label": "Warp",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "qj77jg7q": {
-                        "label": "100 Coin Star",
-                        "rules": null,
+                        "label": "Box",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -15353,56 +16171,56 @@
                     "1w443nmq": "Circles",
                     "qoxxd55q": "Mushroom",
                     "139932r1": "Thorns",
-                    "qvvv3mrq": "100 Coin Star"
+                    "qvvv3mrq": "Careful"
                 },
                 "values": {
                     "1gnnyn8l": {
                         "label": "Wall",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "q65532vl": {
                         "label": "Path",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "lmoozd81": {
                         "label": "Cocane",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "1w443nmq": {
                         "label": "Circles",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "qoxxd55q": {
                         "label": "Mushroom",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "139932r1": {
                         "label": "Thorns",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "qvvv3mrq": {
-                        "label": "100 Coin Star",
-                        "rules": null,
+                        "label": "Careful",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -15419,57 +16237,57 @@
                     "q5vvk27l": "Dice",
                     "lx553y31": "Flower",
                     "14oo32eq": "Vanish",
-                    "19227zyq": "Vip",
-                    "12vv32dq": "100 Coin Star"
+                    "19227zyq": "VIP",
+                    "12vv32dq": "Wall"
                 },
                 "values": {
                     "q755k5d1": {
                         "label": "Simpleflips",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "le22deml": {
                         "label": "Walljump",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "q5vvk27l": {
                         "label": "Dice",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "lx553y31": {
                         "label": "Flower",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "14oo32eq": {
                         "label": "Vanish",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": null
                         }
                     },
                     "19227zyq": {
-                        "label": "Vip",
-                        "rules": null,
+                        "label": "VIP",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "12vv32dq": {
-                        "label": "100 Coin Star",
-                        "rules": null,
+                        "label": "Wall",
+                        "rules": "",
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -15487,7 +16305,7 @@
                     "q755k7p1": "Switches",
                     "1gnnyx6l": "Crystal Tower - Up",
                     "qznnk02q": "Crystal Tower - Reds",
-                    "lr33n5ol": "100 Coin Star"
+                    "lr33n5ol": "50 Coin Star"
                 },
                 "values": {
                     "qkee7ekq": {
@@ -15533,10 +16351,10 @@
                         }
                     },
                     "lr33n5ol": {
-                        "label": "100 Coin Star",
+                        "label": "50 Coin Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     }
                 },
@@ -15544,6 +16362,241 @@
                 "id": "j84vkzw8",
                 "level_id": "ldymj37d",
                 "var_name": "C15 stars"
+            },
+            "Speed Highway": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1gn93gol": "End of the Highway",
+                    "qzngm4kq": "Secrets"
+                },
+                "values": {
+                    "1gn93gol": {
+                        "label": "End of the Highway",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qzngm4kq": {
+                        "label": "Secrets",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "1gn93gol",
+                "id": "7893pj08",
+                "level_id": "n9368l29",
+                "var_name": "B1 Stars"
+            },
+            "Double Trials -Sand-": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lr3xr7wl": "End of the Trial",
+                    "1dk6mdgl": "Shell Star"
+                },
+                "values": {
+                    "lr3xr7wl": {
+                        "label": "End of the Trial",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1dk6mdgl": {
+                        "label": "Shell Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "lr3xr7wl",
+                "id": "2lgyqrol",
+                "level_id": "gdr5goe9",
+                "var_name": "DT Sand Stars"
+            },
+            "Double Trials -Ice-": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q8k4mz6q": "End of the Trial",
+                    "qyz764d1": "Jump to the Tall Pillar"
+                },
+                "values": {
+                    "q8k4mz6q": {
+                        "label": "End of the Trial",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qyz764d1": {
+                        "label": "Jump to the Tall Pillar",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "q8k4mz6q",
+                "id": "wl3e206n",
+                "level_id": "ywe6n3l9",
+                "var_name": "DT Ice Stars"
+            },
+            "Green Devil Temple": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "ln8e23nl": "Normal Ending"
+                },
+                "values": {
+                    "ln8e23nl": {
+                        "label": "Normal Ending",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "ln8e23nl",
+                "id": "wleyqdxn",
+                "level_id": "z981e5rw",
+                "var_name": "B2 Star"
+            },
+            "White Fleet": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "10v6r7pl": "Extra Ending"
+                },
+                "values": {
+                    "10v6r7pl": {
+                        "label": "Extra Ending",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "10v6r7pl",
+                "id": "68ky244l",
+                "level_id": "rdnerx5d",
+                "var_name": "B3 Star"
+            },
+            "Mystic Woods": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qj725doq": "Hidden Room in the Center",
+                    "q65vj7ol": "Inside the Tree Trunk",
+                    "lmo29n01": "Hidden Room on the Side",
+                    "1w47k86q": "Follow the Blue Coins"
+                },
+                "values": {
+                    "qj725doq": {
+                        "label": "Hidden Room in the Center",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q65vj7ol": {
+                        "label": "Inside the Tree Trunk",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lmo29n01": {
+                        "label": "Hidden Room on the Side",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1w47k86q": {
+                        "label": "Follow the Blue Coins",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qj725doq",
+                "id": "j84v2e58",
+                "level_id": "ldymjkpd",
+                "var_name": "MW Stars"
+            },
+            "Tower of the Last Warp": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qoxj7n4q": "Top of the Tower",
+                    "139xyry1": "Red Coins"
+                },
+                "values": {
+                    "qoxj7n4q": {
+                        "label": "Top of the Tower",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "139xyry1": {
+                        "label": "Red Coins",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qoxj7n4q",
+                "id": "rn1g20pn",
+                "level_id": "nwlrnzow",
+                "var_name": "TotLW Stars"
+            },
+            "Egg Carrier (Outside)": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qvvxndyq": "Red Coins",
+                    "le2nw46l": "Cannon Star"
+                },
+                "values": {
+                    "qvvxndyq": {
+                        "label": "Red Coins",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "le2nw46l": {
+                        "label": "Cannon Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qvvxndyq",
+                "id": "p85p245l",
+                "level_id": "69zkx6x9",
+                "var_name": "EC Outside Stars"
+            },
+            "Egg Carrier (Inside)": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q5v405vl": "Red Coin Troll Star"
+                },
+                "values": {
+                    "q5v405vl": {
+                        "label": "Red Coin Troll Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "q5v405vl",
+                "id": "38deqzen",
+                "level_id": "r9gvrnj9",
+                "var_name": "EC Inside Star"
             }
         }
     },
@@ -20732,6 +21785,18 @@
         "variables": {}
     },
     {
+        "name": "Minesweeper 64: Expert Edition",
+        "id": "9doxw37d",
+        "abbreviation": "Minesweeper_64_Expert_Edition",
+        "categories": {
+            "Beginner": "5dwe6lnd",
+            "Intermediate": "wk6ge5rd",
+            "Expert": "n2y690md",
+            "All Difficulties": "7kjy8e4k"
+        },
+        "variables": {}
+    },
+    {
         "name": "Monochrome Mario 64",
         "id": "369k78dl",
         "abbreviation": "monochrome_mario_64",
@@ -21231,8 +22296,71 @@
                 "id": "5lyejk98",
                 "level_id": "xd4qneqw",
                 "var_name": "C5 Stars"
+            },
+            "Wing Cap in the Sky": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qyz76821": "Red Coins",
+                    "ln8e2kjl": "Below the Level"
+                },
+                "values": {
+                    "qyz76821": {
+                        "label": "Red Coins",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "ln8e2kjl": {
+                        "label": "Below the Level",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qyz76821",
+                "id": "0nwg9ox8",
+                "level_id": "owoomx3w",
+                "var_name": "WC Stars"
+            },
+            "Cavern of the Metal Cap": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q7526dp1": "Red Coins",
+                    "1gn93d6l": "Invisible Maze"
+                },
+                "values": {
+                    "q7526dp1": {
+                        "label": "Red Coins",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1gn93d6l": {
+                        "label": "Invisible Maze",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "q7526dp1",
+                "id": "9l792x4n",
+                "level_id": "nwlq1gpd",
+                "var_name": "MC Stars"
             }
         }
+    },
+    {
+        "name": "Only Up 64",
+        "id": "k6qp4j9d",
+        "abbreviation": "Only_Up_64",
+        "categories": {
+            "1 Star": "wkpl38g2"
+        },
+        "variables": {}
     },
     {
         "name": "Organ Of Matrias",
@@ -21260,6 +22388,16 @@
         "abbreviation": "peachs_fury",
         "categories": {
             "25 Star": "zdnynnqk"
+        },
+        "variables": {}
+    },
+    {
+        "name": "Phenomena",
+        "id": "ldej7e51",
+        "abbreviation": "phenomena",
+        "categories": {
+            "70 Star": "xk9137yd",
+            "120 Star": "z27y8jg2"
         },
         "variables": {}
     },
@@ -23131,6 +24269,7 @@
         "id": "w6j72wx6",
         "abbreviation": "sere_quietude_64",
         "categories": {
+            "0 Star": "5dwvwqlk",
             "16 Star": "zd34zqv2",
             "32 Star": "9kv31n82",
             "64 Star": "rklmonnd"
@@ -30735,34 +31874,34 @@
             "Goomba Valley": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "qznnk8gq": "Explore The Caverns...",
-                    "lr33nvjl": "Slidin' To The Poles",
-                    "q755k0n1": "Behind The Grills",
+                    "qznnk8gq": "Explore the Caverns...",
+                    "lr33nvjl": "Slidin' to the Poles",
+                    "q755k0n1": "Behind the Grills",
                     "1gnnyvxl": "Red Coins Time !",
-                    "qznnk84q": "At The End Of The Lava Source",
+                    "qznnk84q": "At the End of the Lava Source",
                     "lr33nv0l": "Flight Into Five Transparent Stars",
                     "1dkkr93l": "100 Coin Star"
                 },
                 "values": {
                     "qznnk8gq": {
-                        "label": "Explore The Caverns...",
+                        "label": "Explore the Caverns...",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "lr33nvjl": {
-                        "label": "Slidin' To The Poles",
+                        "label": "Slidin' to the Poles",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "q755k0n1": {
-                        "label": "Behind The Grills",
+                        "label": "Behind the Grills",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "1gnnyvxl": {
@@ -30773,10 +31912,10 @@
                         }
                     },
                     "qznnk84q": {
-                        "label": "At The End Of The Lava Source",
+                        "label": "At the End of the Lava Source",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "lr33nv0l": {
@@ -30803,11 +31942,11 @@
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "1gnnyvnl": "Battle Against Chilly Whomp",
-                    "q8kk5jrq": "Swinging Above The Poison",
-                    "qyzz3d31": "Swimming In Cold Waters",
+                    "q8kk5jrq": "Swinging Above the Poison",
+                    "qyzz3d31": "Swimming in Cold Waters",
                     "ln88rp6l": "Platform Ride Among Toxic Liquid",
-                    "10vv3gjl": "Ice Mario Vs Koopa The Cheater",
-                    "qj77jv0q": "Hoot The Owl",
+                    "10vv3gjl": "Ice Mario VS Koopa the Cheater",
+                    "qj77jv0q": "Hoot the Owl",
                     "q6553nnl": "100 Coin Star"
                 },
                 "values": {
@@ -30819,17 +31958,17 @@
                         }
                     },
                     "q8kk5jrq": {
-                        "label": "Swinging Above The Poison",
+                        "label": "Swinging Above the Poison",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qyzz3d31": {
-                        "label": "Swimming In Cold Waters",
+                        "label": "Swimming in Cold Waters",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "ln88rp6l": {
@@ -30840,17 +31979,17 @@
                         }
                     },
                     "10vv3gjl": {
-                        "label": "Ice Mario Vs Koopa The Cheater",
+                        "label": "Ice Mario VS Koopa the Cheater",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qj77jv0q": {
-                        "label": "Hoot The Owl",
+                        "label": "Hoot the Owl",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "q6553nnl": {
@@ -30869,55 +32008,55 @@
             "Bitter Badlands": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "q755k0v1": "Above The Creepy Void",
-                    "lmoozvy1": "A Visit In The Strange Building",
-                    "1w443z9q": "Bittering Red Coins Of The Lake",
-                    "qoxxdkgq": "Across The Windy Path",
-                    "13993dk1": "Reward Of The Target House",
-                    "qvvv3g5q": "Flowery Search For Transparent Stars",
+                    "q755k0v1": "Above the Creepy Void",
+                    "lmoozvy1": "A Visit in the Strange Building",
+                    "1w443z9q": "Bittering Red Coins of the Lake",
+                    "qoxxdkgq": "Across the Windy Path",
+                    "13993dk1": "Reward of the Target House",
+                    "qvvv3g5q": "Flowery Search for Transparent Stars",
                     "le22d9pl": "100 Coin Star"
                 },
                 "values": {
                     "q755k0v1": {
-                        "label": "Above The Creepy Void",
+                        "label": "Above the Creepy Void",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "lmoozvy1": {
-                        "label": "A Visit In The Strange Building",
+                        "label": "A Visit in the Strange Building",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "1w443z9q": {
-                        "label": "Bittering Red Coins Of The Lake",
+                        "label": "Bittering Red Coins of the Lake",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qoxxdkgq": {
-                        "label": "Across The Windy Path",
+                        "label": "Across the Windy Path",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "13993dk1": {
-                        "label": "Reward Of The Target House",
+                        "label": "Reward of the Target House",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qvvv3g5q": {
-                        "label": "Flowery Search For Transparent Stars",
+                        "label": "Flowery Search for Transparent Stars",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "le22d9pl": {
@@ -30936,20 +32075,20 @@
             "Strange Sewers": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "qkee7jnq": "Trust The Yellow Arrows",
+                    "qkee7jnq": "Trust the Yellow Arrows",
                     "q5vvkyrl": "The Old Sunken Switch",
-                    "lx553rj1": "Transparent Stars Above The Dried Waste",
-                    "14oo38wq": "A Ride On The Arrow Platform",
-                    "192273jq": "Right Above The Start",
+                    "lx553rj1": "Transparent Stars above the Dried Waste",
+                    "14oo38wq": "A Ride on the Arrow Platform",
+                    "192273jq": "Right Above the Start",
                     "12vv3nvq": "Two Hands, One Sewer",
                     "1pyy8je1": "100 Coin Star"
                 },
                 "values": {
                     "qkee7jnq": {
-                        "label": "Trust The Yellow Arrows",
+                        "label": "Trust the Yellow Arrows",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "q5vvkyrl": {
@@ -30960,24 +32099,24 @@
                         }
                     },
                     "lx553rj1": {
-                        "label": "Transparent Stars Above The Dried Waste",
+                        "label": "Transparent Stars above the Dried Waste",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "14oo38wq": {
-                        "label": "A Ride On The Arrow Platform",
+                        "label": "A Ride on the Arrow Platform",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "192273jq": {
-                        "label": "Right Above The Start",
+                        "label": "Right Above the Start",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "12vv3nvq": {
@@ -31003,48 +32142,48 @@
             "Ampersand Furnace": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "1pyy8pg1": "Metal Balls Show The Way",
-                    "qkee7d9q": "All The Way Back To The Source",
-                    "q755kwn1": "Free The Enclosed Star",
-                    "1gnny7xl": "Platform Tour For 8 Coins",
-                    "qznnkd4q": "A Shell Hunt In The Lava Maze",
+                    "1pyy8pg1": "Metal Balls Show the Way",
+                    "qkee7d9q": "All the Way Back to the Source",
+                    "q755kwn1": "Free the Enclosed Star",
+                    "1gnny7xl": "Platform Tour for 8 Coins",
+                    "qznnkd4q": "A Shell Hunt in the Lava Maze",
                     "lr33nm0l": "Wiggler's Rage Attack",
                     "1dkkrw3l": "100 Coin Star"
                 },
                 "values": {
                     "1pyy8pg1": {
-                        "label": "Metal Balls Show The Way",
+                        "label": "Metal Balls Show the Way",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qkee7d9q": {
-                        "label": "All The Way Back To The Source",
+                        "label": "All the Way Back to the Source",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "q755kwn1": {
-                        "label": "Free The Enclosed Star",
+                        "label": "Free the Enclosed Star",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "1gnny7xl": {
-                        "label": "Platform Tour For 8 Coins",
+                        "label": "Platform Tour for 8 Coins",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "qznnkd4q": {
-                        "label": "A Shell Hunt In The Lava Maze",
+                        "label": "A Shell Hunt in the Lava Maze",
                         "rules": null,
                         "flags": {
-                            "miscellaneous": null
+                            "miscellaneous": false
                         }
                     },
                     "lr33nm0l": {
@@ -31070,21 +32209,202 @@
             "King Bob-Omb's Fortress": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "q5vve27l": "Lava Side Star"
+                    "qkee5zkq": "Red Coins in the Lava Room",
+                    "q755p7d1": "Red Coins in the Dark Room",
+                    "q5vve27l": "Lava Tunnel"
                 },
                 "values": {
+                    "qkee5zkq": {
+                        "label": "Red Coins in the Lava Room",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q755p7d1": {
+                        "label": "Red Coins in the Dark Room",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
                     "q5vve27l": {
-                        "label": "Lava Side Star",
+                        "label": "Lava Tunnel",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qkee5zkq",
+                "id": "jlz2k3yl",
+                "level_id": "592x3k7d",
+                "var_name": "KBF Stars"
+            },
+            "100 Coins in a Lava Wasteland": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1gnn5x8l": "100 Coins"
+                },
+                "values": {
+                    "1gnn5x8l": {
+                        "label": "100 Coins",
                         "rules": null,
                         "flags": {
                             "miscellaneous": null
                         }
                     }
                 },
-                "default": "q5vve27l",
-                "id": "jlz2k3yl",
-                "level_id": "592x3k7d",
-                "var_name": "KBF Stars"
+                "default": "1gnn5x8l",
+                "id": "0nwgo1k8",
+                "level_id": "xd0zl1m9",
+                "var_name": "100CC Stars"
+            },
+            "Twin Arenas": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lr3395ml": "Defeat the Chill Bully",
+                    "qznn908q": "Defeat the Big Bully"
+                },
+                "values": {
+                    "lr3395ml": {
+                        "label": "Defeat the Chill Bully",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qznn908q": {
+                        "label": "Defeat the Big Bully",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "lr3395ml",
+                "id": "78936r68",
+                "level_id": "n9368x29",
+                "var_name": "TA Stars"
+            },
+            "Lost Woods": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1dkk525l": "The Lost Toad"
+                },
+                "values": {
+                    "1dkk525l": {
+                        "label": "The Lost Toad",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "1dkk525l",
+                "id": "onv9jr78",
+                "level_id": "29voj6qw",
+                "var_name": "LW Stars"
+            },
+            "Scary Slide Secret": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qyzz9n21": "Quicksand Tick Tock Skating",
+                    "q8kkpg3q": "End of the Slide"
+                },
+                "values": {
+                    "qyzz9n21": {
+                        "label": "Quicksand Tick Tock Skating",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q8kkpg3q": {
+                        "label": "End of the Slide",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "qyzz9n21",
+                "id": "ylpgew6l",
+                "level_id": "rw6jr1p9",
+                "var_name": "Slide Stars"
+            },
+            "Rainbow Heavens": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "ln8895jl": "Red Coins"
+                },
+                "values": {
+                    "ln8895jl": {
+                        "label": "Red Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "ln8895jl",
+                "id": "0nwgo108",
+                "level_id": "z981eorw",
+                "var_name": "RH Stars"
+            },
+            "Tropical Resort": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "10vvpx2l": "Red Coins",
+                    "q655p2jl": "The Lost Penguin",
+                    "qj779g3q": "The Long Underwater Tunnel"
+                },
+                "values": {
+                    "10vvpx2l": {
+                        "label": "Red Coins",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "q655p2jl": {
+                        "label": "The Lost Penguin",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    },
+                    "qj779g3q": {
+                        "label": "The Long Underwater Tunnel",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "10vvpx2l",
+                "id": "78936r38",
+                "level_id": "xd4qn1qw",
+                "var_name": "TR Stars"
+            },
+            "Prologue - ??????": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lmoopdm1": "Defeat Mr. I"
+                },
+                "values": {
+                    "lmoopdm1": {
+                        "label": "Defeat Mr. I",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "lmoopdm1",
+                "id": "2lgyroel",
+                "level_id": "592x4m6d",
+                "var_name": "?????? Stars"
             }
         }
     },
@@ -31908,6 +33228,25 @@
                 "id": "j84dkrj8",
                 "level_id": "ldyvxqzd",
                 "var_name": "Overworld Stars"
+            },
+            "Final Bowser": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "14oo8mwq": "Pipe Entry"
+                },
+                "values": {
+                    "14oo8mwq": {
+                        "label": "Pipe Entry",
+                        "rules": null,
+                        "flags": {
+                            "miscellaneous": null
+                        }
+                    }
+                },
+                "default": "14oo8mwq",
+                "id": "ylpgmzrl",
+                "level_id": "o9xvgg1d",
+                "var_name": "FB Stars"
             }
         }
     },
@@ -58695,11 +60034,12 @@
         "id": "ldez9ld3",
         "abbreviation": "star_revenge_6_luigis_adventure",
         "categories": {
-            "50 Star": "9d85q6dn",
             "120 Star": "xd1wy728",
+            "121 Star": "mkerxqxd",
             "Single Stars": "9kvxevj2",
             "Course RTA": "rklg16qd",
-            "121 Star": "mkerxqxd"
+            "50 Star": "9d85q6dn",
+            "0 Star": "7kjyrp3k"
         },
         "variables": {
             "Lakeside Golf": {
@@ -63814,6 +65154,7 @@
         "categories": {
             "Scrubs Challenge": "rklg3ond",
             "Standard Challenge": "ndx85vrk",
+            "Mainline ISC Challenge": "q25wney2",
             "Apprentices Challenge": "w20zx95d",
             "Masters Challenge": "wdmqvpo2",
             "SR1 run-a-thon": "9d8ve03k",
@@ -75855,6 +77196,7 @@
             "Version": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
+                    "1pyeede1": "1.1.2",
                     "1399o5y1": "1.1.1",
                     "qvvko46q": "1.1",
                     "5lm94rm1": "1.0.1",
@@ -75865,6 +77207,9 @@
                     "jq6xndjq": "0.3"
                 },
                 "values": {
+                    "1pyeede1": {
+                        "label": "1.1.2"
+                    },
                     "1399o5y1": {
                         "label": "1.1.1"
                     },
@@ -75890,7 +77235,7 @@
                         "label": "0.3"
                     }
                 },
-                "default": "1399o5y1",
+                "default": "1pyeede1",
                 "id": "jlz5xgql"
             },
             "BLJ": {
@@ -77018,41 +78363,36 @@
             "80 Star": "q255082o",
             "0 Star": "zdnomq2q",
             "Stars": "q254pvyd",
-            "Course RTA": "wdm4ryod"
+            "Course RTA": "wdm4ryod",
+            "131 Star (v3.4)": "02qxxz7k",
+            "81 Star (v3.4)": "824oo4ed",
+            "1 Star (v3.4)": "9d8ww9wd"
         },
         "variables": {
             "Version": {
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
-                    "810m3wlv": "2.1",
-                    "21g7dm1z": "2.0",
-                    "gq7wdy1p": "1.3",
-                    "jqzdemlp": "1.2",
-                    "klrm42qp": "1.1",
-                    "21dwzjle": "1.0"
+                    "1w476omq": "2.1-",
+                    "qoxjzo5q": "3.4"
                 },
                 "values": {
-                    "810m3wlv": {
-                        "label": "2.1"
+                    "1w476omq": {
+                        "label": "2.1-",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
                     },
-                    "21g7dm1z": {
-                        "label": "2.0"
-                    },
-                    "gq7wdy1p": {
-                        "label": "1.3"
-                    },
-                    "jqzdemlp": {
-                        "label": "1.2"
-                    },
-                    "klrm42qp": {
-                        "label": "1.1"
-                    },
-                    "21dwzjle": {
-                        "label": "1.0"
+                    "qoxjzo5q": {
+                        "label": "3.4",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
                     }
                 },
-                "default": null,
-                "id": "p853ovng"
+                "default": "1w476omq",
+                "id": "kn09qqzn"
             },
             "Bob-omb Plains": {
                 "_note": "`choices` is deprecated, please use `values` instead",
@@ -89051,6 +90391,16 @@
         "variables": {}
     },
     {
+        "name": "Super Mario Integration of Fragments",
+        "id": "9doxwqod",
+        "abbreviation": "Super_Mario_Integration_of_Fragments",
+        "categories": {
+            "0 Star": "xd1x50rk",
+            "100 Star": "zd3mqgy2"
+        },
+        "variables": {}
+    },
+    {
         "name": "Super Mario Island",
         "id": "yd4ow8x1",
         "abbreviation": "super_mario_island",
@@ -92327,9 +93677,822 @@
         "categories": {
             "80 Star": "ndx0w6od",
             "40 Star": "w20547jd",
-            "0 Star": "wdm713ed"
+            "0 Star": "wdm713ed",
+            "Stage RTA": "xd1xlq8k",
+            "Single Star": "zd3m8rn2"
         },
-        "variables": {}
+        "variables": {
+            "Skyscraper City": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qyz7y9d1": "Electric Platforming",
+                    "ln8e09nl": "Pentagonal Tower",
+                    "10v6mppl": "Speed Trickery",
+                    "qj7249oq": "Slippery Roofs",
+                    "q65vxpol": "5 Lit Windows",
+                    "lmo24p01": "Inside The Cage",
+                    "le2n04kl": "100 Coin Star"
+                },
+                "values": {
+                    "qyz7y9d1": {
+                        "label": "Electric Platforming",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "ln8e09nl": {
+                        "label": "Pentagonal Tower",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "10v6mppl": {
+                        "label": "Speed Trickery",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qj7249oq": {
+                        "label": "Slippery Roofs",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q65vxpol": {
+                        "label": "5 Lit Windows",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lmo24p01": {
+                        "label": "Inside The Cage",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "le2n04kl": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qyz7y9d1",
+                "id": "6njyy7pn",
+                "level_id": "xd0m0j4w",
+                "var_name": "C1 Stars"
+            },
+            "Floating Lava Land": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1w47d96q": "Up The Lavafalls",
+                    "qoxj394q": "A Strange Construction",
+                    "139xmpy1": "Slide and Bounce",
+                    "qvvxr9yq": "Victorious Metal Mario",
+                    "le2n406l": "Wallkicks Over Lava",
+                    "q5v45mvl": "Shell Ride For Secrets",
+                    "q5v4m52l": "100 Coin Star"
+                },
+                "values": {
+                    "1w47d96q": {
+                        "label": "Up The Lavafalls",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qoxj394q": {
+                        "label": "A Strange Construction",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "139xmpy1": {
+                        "label": "Slide and Bounce",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qvvxr9yq": {
+                        "label": "Victorious Metal Mario",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "le2n406l": {
+                        "label": "Wallkicks Over Lava",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q5v45mvl": {
+                        "label": "Shell Ride For Secrets",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q5v4m52l": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "1w47d96q",
+                "id": "kn099p3n",
+                "level_id": "rw68v0gd",
+                "var_name": "C2 Stars"
+            },
+            "Mysterious Flying Castle": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lx5g8kg1": "The Lonely Tower",
+                    "14o9v6kq": "Imprisoned Star",
+                    "192x9v4q": "Roof Climbing",
+                    "12v9wk2q": "Parkour in the Corridors",
+                    "1pye0zn1": "BLJ Roofs",
+                    "qkeo434q": "Magical Flying Goombas",
+                    "lx5gk841": "100 Coin Star"
+                },
+                "values": {
+                    "lx5g8kg1": {
+                        "label": "The Lonely Tower",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "14o9v6kq": {
+                        "label": "Imprisoned Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "192x9v4q": {
+                        "label": "Roof Climbing",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "12v9wk2q": {
+                        "label": "Parkour in the Corridors",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1pye0zn1": {
+                        "label": "BLJ Roofs",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qkeo434q": {
+                        "label": "Magical Flying Goombas",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lx5gk841": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "lx5g8kg1",
+                "id": "ql6wwkjn",
+                "level_id": "n93v0pzd",
+                "var_name": "C3 Stars"
+            },
+            "Devastated Forest": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q7524or1": "Glitchy Climbing",
+                    "1gn946ol": "Crazy Wallkicks",
+                    "qzng5wkq": "The Tree's Cage",
+                    "lr3x0dwl": "Traversing The Grills",
+                    "1dk6yngl": "Ladder Climbing to the Top",
+                    "q8k4036q": "Extreme Chain Platforming",
+                    "14o96vvq": "100 Coin Star"
+                },
+                "values": {
+                    "q7524or1": {
+                        "label": "Glitchy Climbing",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1gn946ol": {
+                        "label": "Crazy Wallkicks",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qzng5wkq": {
+                        "label": "The Tree's Cage",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lr3x0dwl": {
+                        "label": "Traversing The Grills",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1dk6yngl": {
+                        "label": "Ladder Climbing to the Top",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q8k4036q": {
+                        "label": "Extreme Chain Platforming",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "14o96vvq": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "q7524or1",
+                "id": "onv99zw8",
+                "level_id": "z98yj0pw",
+                "var_name": "C4 Stars"
+            },
+            "Eternal Winter": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qyz7ymd1": "Intriguing Floating Trees",
+                    "ln8e07nl": "Around The Outer Wall",
+                    "10v6mypl": "Perilous Box Jumping",
+                    "qj724ooq": "Inside The Igloo",
+                    "q65vxwol": "Slopes in the Cave",
+                    "lmo24e01": "Corrupted Cavern",
+                    "192xv98q": "100 Coin Star"
+                },
+                "values": {
+                    "qyz7ymd1": {
+                        "label": "Intriguing Floating Trees",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "ln8e07nl": {
+                        "label": "Around The Outer Wall",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "10v6mypl": {
+                        "label": "Perilous Box Jumping",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qj724ooq": {
+                        "label": "Inside The Igloo",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q65vxwol": {
+                        "label": "Slopes in the Cave",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lmo24e01": {
+                        "label": "Corrupted Cavern",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "192xv98q": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qyz7ymd1",
+                "id": "ylpggzjl",
+                "level_id": "rdn65v7w",
+                "var_name": "C5 Stars"
+            },
+            "Glitch Factory": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1w47dj6q": "Chuckya Clip",
+                    "qoxj3g4q": "Metal Cap Experiment",
+                    "139xmjy1": "Chuckya Bounce",
+                    "qvvxr0yq": "Chuckya Warp",
+                    "le2n4y6l": "Puzzling Slopes",
+                    "q5v45wvl": "Hyper Koopa Gene Extraction",
+                    "12v9kw4q": "100 Coin Star"
+                },
+                "values": {
+                    "1w47dj6q": {
+                        "label": "Chuckya Clip",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qoxj3g4q": {
+                        "label": "Metal Cap Experiment",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "139xmjy1": {
+                        "label": "Chuckya Bounce",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qvvxr0yq": {
+                        "label": "Chuckya Warp",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "le2n4y6l": {
+                        "label": "Puzzling Slopes",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q5v45wvl": {
+                        "label": "Hyper Koopa Gene Extraction",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "12v9kw4q": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "1w47dj6q",
+                "id": "0nwggj58",
+                "level_id": "ldynevrw",
+                "var_name": "C6 Stars"
+            },
+            "Underwater Realm": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "lx5g82g1": "Eccentric Zigzags",
+                    "14o9vmkq": "Slippery Wooden Ruins",
+                    "192x9e4q": "Goomba Carnage",
+                    "12v9wj2q": "Lonely Sand Tower",
+                    "1pye0kn1": "Through The Quicksand Field",
+                    "qkeo4w4q": "Sand Castle Exploration",
+                    "1pyez081": "100 Coin Star"
+                },
+                "values": {
+                    "lx5g82g1": {
+                        "label": "Eccentric Zigzags",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "14o9vmkq": {
+                        "label": "Slippery Wooden Ruins",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "192x9e4q": {
+                        "label": "Goomba Carnage",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "12v9wj2q": {
+                        "label": "Lonely Sand Tower",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1pye0kn1": {
+                        "label": "Through The Quicksand Field",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qkeo4w4q": {
+                        "label": "Sand Castle Exploration",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1pyez081": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "lx5g82g1",
+                "id": "78933558",
+                "level_id": "gdrmjvlw",
+                "var_name": "C7 Stars"
+            },
+            "Moon Station": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q75243r1": "Experimental Scaffolding",
+                    "1gn940ol": "Arms Workout",
+                    "qzng52kq": "Chuckya Time Trial",
+                    "lr3x0kwl": "Slope Fantasy",
+                    "q75243d1": "Sharpened Rocks",
+                    "1gn9408l": "Speedkick Investigation",
+                    "qkeo34kq": "Deep Space Platforming"
+                },
+                "values": {
+                    "q75243r1": {
+                        "label": "Experimental Scaffolding",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1gn940ol": {
+                        "label": "Arms Workout",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qzng52kq": {
+                        "label": "Chuckya Time Trial",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lr3x0kwl": {
+                        "label": "Slope Fantasy",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q75243d1": {
+                        "label": "Sharpened Rocks",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1gn9408l": {
+                        "label": "Speedkick Investigation",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qkeo34kq": {
+                        "label": "Deep Space Platforming",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "q75243r1",
+                "id": "2lgyy26l",
+                "level_id": "nwlq6ved",
+                "var_name": "C8 Stars"
+            },
+            "Shroom Swamp": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qzng528q": "Invaded Rotten Tree",
+                    "lr3x0kml": "Overgrown Shroom Territory",
+                    "1dk6y85l": "Mini Mushroom Precision",
+                    "q8k40v3q": "Crazy Leaps Across The Swamp",
+                    "qyz7y221": "Unstable Switches",
+                    "ln8e0vjl": "Tree Trunk Ascent",
+                    "q752o4d1": "100 Coin Star"
+                },
+                "values": {
+                    "qzng528q": {
+                        "label": "Invaded Rotten Tree",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lr3x0kml": {
+                        "label": "Overgrown Shroom Territory",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1dk6y85l": {
+                        "label": "Mini Mushroom Precision",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q8k40v3q": {
+                        "label": "Crazy Leaps Across The Swamp",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qyz7y221": {
+                        "label": "Unstable Switches",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "ln8e0vjl": {
+                        "label": "Tree Trunk Ascent",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q752o4d1": {
+                        "label": "100 Coin Star",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qzng528q",
+                "id": "wl3eegwn",
+                "level_id": "ywer4779",
+                "var_name": "C9 Stars"
+            },
+            "Forsaken Prison": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "1gn9648l": "Demanding Roof Climb",
+                    "qzngw58q": "Alternate Roof Escape",
+                    "lr3xd0ml": "Final Prisoner",
+                    "q752o4p1": "Protected Basement",
+                    "1gn9646l": "Star Fragment Ascension",
+                    "qzngw52q": "Slidekick Showoff",
+                    "lr3xd0ol": "Secondary Wallkick Trial"
+                },
+                "values": {
+                    "1gn9648l": {
+                        "label": "Demanding Roof Climb",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qzngw58q": {
+                        "label": "Alternate Roof Escape",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lr3xd0ml": {
+                        "label": "Final Prisoner",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q752o4p1": {
+                        "label": "Protected Basement",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1gn9646l": {
+                        "label": "Star Fragment Ascension",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qzngw52q": {
+                        "label": "Slidekick Showoff",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lr3xd0ol": {
+                        "label": "Secondary Wallkick Trial",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "1gn9648l",
+                "id": "kn0933zn",
+                "level_id": "69zyrvgw",
+                "var_name": "C10 Stars"
+            },
+            "Magmatic Hell": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "q8k430yq": "Just Some Up and Down",
+                    "qyz7my61": "Hell's Burning Ceiling",
+                    "ln8e70ol": "Firing into the Distance",
+                    "10v6ywol": "Searing Slope Ascent"
+                },
+                "values": {
+                    "q8k430yq": {
+                        "label": "Just Some Up and Down",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qyz7my61": {
+                        "label": "Hell's Burning Ceiling",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "ln8e70ol": {
+                        "label": "Firing into the Distance",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "10v6ywol": {
+                        "label": "Searing Slope Ascent",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "q8k430yq",
+                "id": "ql6wmm7n",
+                "level_id": "r9gezopd",
+                "var_name": "MH Stars"
+            },
+            "Cloud Heaven": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qj72ox7q": "Shell Gliding",
+                    "q65vwzvl": "Claustrophobic Corridor",
+                    "lmo2eg81": "Impending Rainstorm",
+                    "1w47j5mq": "Floating Slopes"
+                },
+                "values": {
+                    "qj72ox7q": {
+                        "label": "Shell Gliding",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "q65vwzvl": {
+                        "label": "Claustrophobic Corridor",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "lmo2eg81": {
+                        "label": "Impending Rainstorm",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "1w47j5mq": {
+                        "label": "Floating Slopes",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qj72ox7q",
+                "id": "onv9xx78",
+                "level_id": "o9x82vpw",
+                "var_name": "CH Stars"
+            },
+            "Blocky Mess": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qoxjgr5q": "Climbing the Convoluted Structure",
+                    "139xj5r1": "Into the Cubic Distance"
+                },
+                "values": {
+                    "qoxjgr5q": {
+                        "label": "Climbing the Convoluted Structure",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "139xj5r1": {
+                        "label": "Into the Cubic Distance",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qoxjgr5q",
+                "id": "ylpgxx6l",
+                "level_id": "4953j03d",
+                "var_name": "BM Stars"
+            },
+            "Final Delirium": {
+                "_note": "`choices` is deprecated, please use `values` instead",
+                "choices": {
+                    "qvvx0erq": "Bad Ending",
+                    "le2n0mml": "Good Ending"
+                },
+                "values": {
+                    "qvvx0erq": {
+                        "label": "Bad Ending",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "le2n0mml": {
+                        "label": "Good Ending",
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    }
+                },
+                "default": "qvvx0erq",
+                "id": "0nwgdd08",
+                "level_id": "rdqp0v29",
+                "var_name": "FD Ending"
+            }
+        }
     },
     {
         "name": "Super Mario Star Road",
@@ -96889,19 +99052,27 @@
                 "_note": "`choices` is deprecated, please use `values` instead",
                 "choices": {
                     "p12eo6v1": "Strange Clock Chaos",
-                    "81pw43el": "Push the Messy Panels"
+                    "81pw43el": "Push the Messy Panels",
+                    "qj72od3q": "Red Coins (v1.2)"
                 },
                 "values": {
                     "p12eo6v1": {
                         "label": "Strange Clock Chaos",
-                        "rules": null,
+                        "rules": "",
                         "flags": {
                             "miscellaneous": false
                         }
                     },
                     "81pw43el": {
                         "label": "Push the Messy Panels",
-                        "rules": null,
+                        "rules": "",
+                        "flags": {
+                            "miscellaneous": false
+                        }
+                    },
+                    "qj72od3q": {
+                        "label": "Red Coins (v1.2)",
+                        "rules": "",
                         "flags": {
                             "miscellaneous": false
                         }

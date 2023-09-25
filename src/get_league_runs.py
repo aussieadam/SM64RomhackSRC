@@ -259,7 +259,7 @@ def update_leaderboard(doc, spreadsheet_id, parts, parts_range):
 
     batch_update_body = {
         "data": [],
-        "value_input_option": "RAW"
+        "value_input_option": "RAW" #potentially try USER_ENTERED
     }
 
     iter = 0

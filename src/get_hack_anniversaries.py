@@ -3,6 +3,7 @@ import os
 import time
 
 from discord import SyncWebhook
+from discord import SyncWebhookMessage
 
 import requests
 import json
@@ -76,8 +77,10 @@ def post_anniversaries(hack_list):
         print(hack['hyperlink'])
         if hack['hyperlink'] is not None:
             message = message + f"\n{hack['hyperlink']}"
-        my_webhook.send(content=message)
-        webhook.send(content=message)
+        my_message = my_webhook.send(content=message)
+        message = webhook.send(content=message)
+        my_message.publish()
+        message.publish()
 
 
 def lambda_handler(event, context):
