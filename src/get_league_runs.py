@@ -259,7 +259,7 @@ def update_leaderboard(doc, spreadsheet_id, parts, parts_range):
 
     batch_update_body = {
         "data": [],
-        "value_input_option": "RAW" #potentially try USER_ENTERED
+        "value_input_option": "RAW"  # potentially try USER_ENTERED
     }
 
     iter = 0
@@ -455,7 +455,6 @@ def update_config(doc, spreadsheet_id, ran_time):
 
 
 def lambda_handler(event, context):
-    # if __name__ == '__main__':
     run_time = dt.strptime(dt.now(tz=datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'), '%Y-%m-%dT%H:%M:%SZ')
     creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
     service = build('sheets', 'v4', credentials=creds)
@@ -483,3 +482,7 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': 'Run Complete'
     }
+
+#
+# if __name__ == '__main__':
+#     print(lambda_handler(1, 2))
