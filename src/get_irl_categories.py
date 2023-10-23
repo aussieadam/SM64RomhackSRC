@@ -20,6 +20,7 @@ if __name__ == '__main__':
             for category in cat_res['data']:
                 cat_name = category['name']
                 rules = category['rules']
+                # maybe take out the rule stuff, unsure if it is useful or not since a lot of rules say IRL timer or something similair.
                 if (cat_name is not None and (
                         ('irl' in cat_name.lower() and 'girl' not in cat_name.lower() and 'twirl' not in cat_name.lower() and 'whirl' not in cat_name.lower())
                         or 'in real life' in cat_name.lower())) \
