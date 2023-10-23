@@ -25,7 +25,7 @@ if __name__ == '__main__':
                         ('irl' in cat_name.lower() and 'girl' not in cat_name.lower() and 'twirl' not in cat_name.lower() and 'whirl' not in cat_name.lower() and 'fairly' not in cat_name.lower() and 'swirl' not in cat_name.lower())
                         or 'in real life' in cat_name.lower())) \
                         or (rules is not None and 'in real life' in rules.lower()):
-                    game_json['category'] = category
+                    game_json[cat_name] = category
                     has_cat = True
             if has_cat:
                 #print(game_json)
