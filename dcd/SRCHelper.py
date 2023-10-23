@@ -77,6 +77,10 @@ def get_runs_by_user_game_cat(user_id, game_id, cat_id):
     return f'https://www.speedrun.com/api/v1/runs?user={user_id}&game={game_id}&category={cat_id}&max=200'
 
 
+def get_games_and_categories():
+    return 'https://www.speedrun.com/api/v1/games?embed=categories&max=200'
+
+
 def get_fullgame_run_body(user_id, run_time, date, platform_id, emulated, video_link, category_id):
     return {'run': {
         "category": category_id,
