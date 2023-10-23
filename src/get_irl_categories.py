@@ -22,10 +22,10 @@ if __name__ == '__main__':
                 rules = category['rules']
                 # maybe take out the rule stuff, unsure if it is useful or not since a lot of rules say IRL timer or something similair.
                 if (cat_name is not None and (
-                        ('irl' in cat_name.lower() and 'girl' not in cat_name.lower() and 'twirl' not in cat_name.lower() and 'whirl' not in cat_name.lower())
+                        ('irl' in cat_name.lower() and 'girl' not in cat_name.lower() and 'twirl' not in cat_name.lower() and 'whirl' not in cat_name.lower() and 'fairly' not in cat_name.lower())
                         or 'in real life' in cat_name.lower())) \
                         or (rules is not None and (('in real life' in rules.lower()) or (
-                        'IRL' in rules and 'GIRL' not in rules and 'TWIRL' not in rules and 'WHIRL' not in rules))):
+                        'IRL' in rules and 'GIRL' not in rules and 'TWIRL' not in rules and 'WHIRL' not in rules and 'FAIRLY' not in rules))):
                     game_json['category'] = category
                     has_cat = True
             if has_cat:
