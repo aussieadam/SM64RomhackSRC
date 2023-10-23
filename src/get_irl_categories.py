@@ -11,7 +11,7 @@ if __name__ == '__main__':
     url = srcHelper.get_games_and_categories()
     while url is not None:
         res = srcHelper.request_src(url)
-        #print(json.dumps(res, indent=4))
+        # print(json.dumps(res, indent=4))
         for game in res['data']:
             game_json = {'name': game['names']['international'], 'id': game['id'], 'abbreviation': game['abbreviation']}
             cat_res = game['categories']
@@ -19,7 +19,10 @@ if __name__ == '__main__':
             has_cat = False
             for category in cat_res['data']:
                 cat_name = category['name']
-                if 'irl' in cat_name.lower() or 'in real life' in cat_name.lower():
+                rules = category['rules']
+                if ('irl' in cat_name.lower() and 'girl' not in cat_name.lower()) \
+                        or 'in real life' in cat_name.lower() or 'in real life' in rules.lower() or \
+                        ('IRL' in rules and 'GIRL' not in rules):
                     game_json['category'] = category
                     has_cat = True
             if has_cat:
@@ -33,4 +36,3 @@ if __name__ == '__main__':
         outfile.write(json.dumps(irl_games, indent=4))
 
     print(f"---Finished in {(time.time() - start_time)} seconds ---")
-
