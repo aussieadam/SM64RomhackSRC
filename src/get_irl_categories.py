@@ -20,9 +20,9 @@ if __name__ == '__main__':
             for category in cat_res['data']:
                 cat_name = category['name']
                 rules = category['rules']
-                if ('irl' in cat_name.lower() and 'girl' not in cat_name.lower()) \
+                if ('irl' in cat_name.lower() and 'girl' not in cat_name.lower() and 'twirl' not in cat_name.lower() and 'whirl' not in cat_name.lower()) \
                         or 'in real life' in cat_name.lower() or 'in real life' in rules.lower() or \
-                        ('IRL' in rules and 'GIRL' not in rules):
+                        ('IRL' in rules and 'GIRL' not in rules and 'TWIRL' not in rules and 'WHIRL' not in rules):
                     game_json['category'] = category
                     has_cat = True
             if has_cat:
