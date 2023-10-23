@@ -6,7 +6,7 @@ start_time = time.time()
 
 if __name__ == '__main__':
     # this will write to local directory you are currently in, up to you to change it
-    hacks_file = 'irl_games.json'
+    irl_games_file = 'irl_games.json'
     irl_games = []
     url = srcHelper.get_games_and_categories()
     while url is not None:
@@ -29,7 +29,7 @@ if __name__ == '__main__':
         for page in res['pagination']['links']:
             if page['rel'] == 'next':
                 url = page['uri']
-    with open(hacks_file, 'w') as outfile:
+    with open(irl_games_file, 'w') as outfile:
         outfile.write(json.dumps(irl_games, indent=4))
 
     print(f"---Finished in {(time.time() - start_time)} seconds ---")
