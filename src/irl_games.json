@@ -1,0 +1,724 @@
+[
+    {
+        "name": "Art Academy",
+        "id": "m1mxrxj6",
+        "abbreviation": "art_academy",
+        "1L IRL": {
+            "id": "7dg0q6gk",
+            "name": "1L IRL",
+            "weblink": "https://www.speedrun.com/art_academy#1L_IRL",
+            "type": "per-game",
+            "rules": "Category rules:\r\n\r\nTime starts when you start drawing and ends when you finish the \"art work\"\r\n\r\nYou need to draw the apple from the 1st Lesson\r\n\r\nThat's pretty much all.",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": false,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/7dg0q6gk"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/m1mxrxj6"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/7dg0q6gk/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/7dg0q6gk/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=7dg0q6gk"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/m1mxrxj6/category/7dg0q6gk"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Barbie Dreamtopia",
+        "id": "268wly56",
+        "abbreviation": "barbiedream",
+        "PrintUnicorn% IRL": {
+            "id": "wk645oed",
+            "name": "PrintUnicorn% IRL",
+            "weblink": "https://www.speedrun.com/barbiedream#PrintUnicorn_IRL",
+            "type": "per-game",
+            "rules": "-Time Starts when you open the Picture  \r\n-The print process must be shown  \r\n-The Size of the Paper needs to be A4  \r\n-The Picture of the Unicorn must cover at least 50% of the Paper  \r\n-You also can print in black and white  \r\n-The Printer is allowed to be on before the Run Starts\r\n-The Tabs must be visible  \r\n-The Time Ends when you hold the Picture in your hands (the image must be clear visible)",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": false,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wk645oed"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/268wly56"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wk645oed/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wk645oed/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=wk645oed"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/268wly56/category/wk645oed"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Big and Small House Category Extensions",
+        "id": "9do8eo71",
+        "abbreviation": "bashex",
+        "Fill Paper% IRL": {
+            "id": "xk99jjgk",
+            "name": "Fill Paper% IRL",
+            "weblink": "https://www.speedrun.com/bashex#Fill_Paper_IRL",
+            "type": "per-game",
+            "rules": "fill an entire A4 sheet of paper so theres no white bits left\r\n\r\ntime starts when you first touch the paper with paint on your hand\r\n\r\ntime ends when you touch the paper for the last time with paint on it\r\n\r\nif your playing as big use the palm of your hand\r\n\r\nA Big/Small facemask may not be required but recommended for comedic effect \r\n\r\n\r\nif your playing as small use your fingers",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": true,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/xk99jjgk"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/9do8eo71"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/xk99jjgk/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/xk99jjgk/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=xk99jjgk"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/9do8eo71/category/xk99jjgk"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Cookie Clicker Category Extensions",
+        "id": "yd4oppg1",
+        "abbreviation": "cclickermemes",
+        "IRL Cookie Baking": {
+            "id": "zd3x53ed",
+            "name": "IRL Cookie Baking",
+            "weblink": "https://www.speedrun.com/cclickermemes#IRL_Cookie_Baking",
+            "type": "per-game",
+            "rules": "###### APPLIANCE RESTRICTIONS:  \r\n- No electrical mixing appliances may be used. Everything must be done by hand with a Wisk, spoon, fork or scoop.  \r\n- No convection ovens.  \r\n\r\n###### INGREDIENTS:  \r\n- The follow ingredients, or a suitable substitute, must be used in desired measurements:  (Flour, Sugar, Brown Sugar, Salt, Baking Soda, Eggs, Butter, Vanilla Extract, Chocolate Chips.)  \r\n\r\n###### COOKIE SPECIFICATIONS:  \r\n- Each Cookies must be round and as close to circular as possible.  \r\n- Each Cookie must be at least 7.5cm / 3in in diameter. They will be measured for proof after each run.  \r\n- Cookies must be fully cooked upon completion. (usually takes 9-11 minutes)  \r\n\r\n###### SPEEDRUN SPECIFICATIONS:  \r\n- You may have the materials out and opened, but they must remain in their packaging before starting.  \r\n- Timer starts when you touch the first ingredient.  \r\n- Timer Stops when the final batch is removed from the oven and the oven door is shut.  \r\n- Once the cookies have cooled, you must verify they are fully baked and of required size.",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": false,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/zd3x53ed"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/yd4oppg1"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/zd3x53ed/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/zd3x53ed/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=zd3x53ed"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/yd4oppg1/category/zd3x53ed"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Cooking Mama Series Category Extensions",
+        "id": "kdkzl5xd",
+        "abbreviation": "cmce",
+        "Cooking Mama - Slice of Bread IRL": {
+            "id": "zd3xgoed",
+            "name": "Cooking Mama - Slice of Bread IRL",
+            "weblink": "https://www.speedrun.com/cmce#Cooking_Mama_-_Slice_of_Bread_IRL",
+            "type": "per-game",
+            "rules": "Fail to make a sandwich. All 4 steps must be completed in order, and must be done within view of the camera to qualify.\r\n\r\n1) Remove at least 12 leaves from an intact head of lettuce.*\r\n\r\n2) Cut a cucumber* into at least 15 separate pieces.\r\n\r\n3) Slice a tomato* into at least 10 separate pieces.\r\n\r\n4) Place a single slice of bread on a plate.\r\n\r\nTime begins on initial contact with lettuce*. Time ends once bread is in contact with the plate and is not in contact with the runner.\r\n\r\nAny injury caused by mishandling utensils to either yourself or others will automatically disqualify your run. Don't hurt yourself doing this. Scissors are an acceptable alternative to knives for cutting ingredients if this may be an issue. \r\n\r\n*Any ingredients may be replaced by similar alternatives if there are issues with allergies or acquisition. Please contact mod Stratosfire to confirm any substitutions before submitting a run.",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": false,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/zd3xgoed"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/kdkzl5xd"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/zd3xgoed/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/zd3xgoed/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=zd3xgoed"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/kdkzl5xd/category/zd3xgoed"
+                }
+            ]
+        },
+        "Cooking Mama 2 - Burn a Pie IRL": {
+            "id": "w203lxj2",
+            "name": "Cooking Mama 2 - Burn a Pie IRL",
+            "weblink": "https://www.speedrun.com/cmce#Cooking_Mama_2_-_Burn_a_Pie_IRL",
+            "type": "per-game",
+            "rules": "Burn a pie in real life as fast as possible. Time starts when beginning to make the pie and ends when the pie is successfully burnt.\r\n\r\nAny injury caused by mishandling utensils to either yourself or others will automatically disqualify your run. Don't hurt yourself doing this.",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": false,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/w203lxj2"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/kdkzl5xd"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/w203lxj2/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/w203lxj2/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=w203lxj2"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/kdkzl5xd/category/w203lxj2"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Five Nights at Freddy's: Security Breach Category Extensions",
+        "id": "76r3lrq6",
+        "abbreviation": "fnafsb_ce",
+        "IRLPizza%": {
+            "id": "wkpn5p0d",
+            "name": "IRLPizza%",
+            "weblink": "https://www.speedrun.com/fnafsb_ce#IRLPizza",
+            "type": "per-game",
+            "rules": "Welcome to Freddy Fazbears Pizza making Program we are here to test your pizza making skills in the event you need to ~~fend off~~ Feed Chica a pizza!\r\n\r\nRun Starts - When you put your hands on the first Ingredient to begin making the pizza\r\n\r\nBase rules - The ingredients and the oven must be visible at all times.\r\n\r\nPrerun Prep - You may Preheat the oven before the run Starts, You may have the ingredients out before hand but not opened ( we recommend fresh ingredients for maximum tastiness!)\r\n\r\nRun End - After you remove the pizza from the oven and slice it into 8 Pieces, The cheese has to be fully melted and the crust has to be fully cooked, it has has to have a minimum size of 8 inches.\r\n\r\nAll runs will be under the default 1.04 + PC subcategories.",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": false,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wkpn5p0d"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/76r3lrq6"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wkpn5p0d/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wkpn5p0d/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=wkpn5p0d"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/76r3lrq6/category/wkpn5p0d"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Hidden Object Hunt",
+        "id": "y655e906",
+        "abbreviation": "hidden_object_hunt",
+        "In Real Life": {
+            "id": "rkl0z08k",
+            "name": "In Real Life",
+            "weblink": "https://www.speedrun.com/hidden_object_hunt#In_Real_Life",
+            "type": "per-game",
+            "rules": "Find the following fifteen items IN REAL LIFE as fast as possible:\r\nA Boomerang\r\nA Bar Code (can be printed on another object)\r\n\"TELEPHONE\" in writing\r\nA Q-Tip\r\nA Horseshoe\r\nAn Egg\r\nA Band-Aid\r\nA Chain\r\n\"PASTA\" in writing\r\nCherries\r\nA drawing of an airplane\r\nSome sort of nut or legume\r\nA fish or some seafood product\r\nA chili pepper\r\nA real or fake spider\r\n\r\nTime starts on the first frame that the player stands up from a seated position. Time ends upon displaying the fifteenth item on camera. Pressing \"Play Again\" to restart a level is allowed, but counts as a reset.\r\n\r\nVideo proof of entire run is required. Run will be rejected if camera is not brought with you during your journey.",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": true,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/rkl0z08k"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/y655e906"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/rkl0z08k/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/rkl0z08k/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=rkl0z08k"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/y655e906/category/rkl0z08k"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Jump Rope Challenge",
+        "id": "k6q4ov9d",
+        "abbreviation": "jrc",
+        "IRL": {
+            "id": "9kv97v02",
+            "name": "IRL",
+            "weblink": "https://www.speedrun.com/jrc#IRL",
+            "type": "per-game",
+            "rules": "Jump 100 Times In Real Life. Use some long thing to jump rope over like a jump rope or normal rope. The actual game does not have to be used to run this category so long as you jump over some long object 100 times. Round times to the nearest second.",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": false,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/9kv97v02"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/k6q4ov9d"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/9kv97v02/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/9kv97v02/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=9kv97v02"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/k6q4ov9d/category/9kv97v02"
+                }
+            ]
+        }
+    },
+
+    {
+        "name": "Pencil Sharpening Simulator",
+        "id": "o1ypx21q",
+        "abbreviation": "pss",
+        "In Real Life": {
+            "id": "wk6jemod",
+            "name": "In Real Life",
+            "weblink": "https://www.speedrun.com/pss#In_Real_Life",
+            "type": "per-game",
+            "rules": "",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": false,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wk6jemod"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/o1ypx21q"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wk6jemod/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wk6jemod/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=wk6jemod"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/o1ypx21q/category/wk6jemod"
+                }
+            ]
+        },
+        "2P - In Real Life": {
+            "id": "wkpy9vvk",
+            "name": "2P - In Real Life",
+            "weblink": "https://www.speedrun.com/pss#2P_-_In_Real_Life",
+            "type": "per-game",
+            "rules": "",
+            "players": {
+                "type": "exactly",
+                "value": 2
+            },
+            "miscellaneous": true,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wkpy9vvk"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/o1ypx21q"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wkpy9vvk/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wkpy9vvk/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=wkpy9vvk"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/o1ypx21q/category/wkpy9vvk"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Pimp's Quest",
+        "id": "yd4ngx6e",
+        "abbreviation": "pimps_quest",
+        "IRL DN%": {
+            "id": "rklr18rk",
+            "name": "IRL DN%",
+            "weblink": "https://www.speedrun.com/pimps_quest#IRL_DN",
+            "type": "per-game",
+            "rules": "GOTEEM DN% RULES\r\nDN% is the category where you can use ANY technique to goteem 5 streamers.\r\n\r\n1. Timing starts on Twitch homepage refresh.\r\n2. You must Deez Nuts a total of 5 streamers.\r\n3. You can only stay on one stream at a time.\r\n4. You can only leave a stream open for reactions, you CANNOT leave them open and look for the next.\r\n5. Only ONE twitch window / tab open at all times.\r\n6. HAVE FUN AND GO GOTEEM",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": false,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/rklr18rk"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/yd4ngx6e"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/rklr18rk/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/rklr18rk/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=rklr18rk"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/yd4ngx6e/category/rklr18rk"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Pringles",
+        "id": "w6jp3e6j",
+        "abbreviation": "pringles",
+        "IRL": {
+            "id": "82417yg2",
+            "name": "IRL",
+            "weblink": "https://www.speedrun.com/pringles#IRL",
+            "type": "per-game",
+            "rules": "Please pop responsibly and stay hydrated during attempts. A for fun category isn't worth choking, or hurting yourself over. If you're going to use a knife to cut the can be super careful and always put the knife down before tearing the can open. Holding the knife while tearing is just begging for you and/or your loved ones to get a pringles knife related injury and the doctor will definitely judge you while they're giving you stitches.\r\n\r\nEat an entire can of Pringles.\r\n\r\nVideo must show the can's plastic cap and seal being opened and the inside of the empty can after being consumed. It must also clearly show the can's weight on the label (ounces/grams) for size verification.\r\n\r\nTimer starts right before taking off plastic cap and opening seal and ends on swallowing last bits of chip.\r\n\r\nruns require either video or to be witnessed at an event",
+            "players": {
+                "type": "up-to",
+                "value": 2
+            },
+            "miscellaneous": true,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/82417yg2"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/w6jp3e6j"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/82417yg2/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/82417yg2/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=82417yg2"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jp3e6j/category/82417yg2"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Stranded Isle Category Extensions",
+        "id": "kdkmpq21",
+        "abbreviation": "stranded_isle_ce",
+        "Bread% IRL": {
+            "id": "wk6r5mok",
+            "name": "Bread% IRL",
+            "weblink": "https://www.speedrun.com/stranded_isle_ce#Bread_IRL",
+            "type": "per-game",
+            "rules": "Just buy bread irl for Dream%, bake it for Vanilla*",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": true,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wk6r5mok"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/kdkmpq21"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wk6r5mok/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/wk6r5mok/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=wk6r5mok"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/kdkmpq21/category/wk6r5mok"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Ticket to Ride",
+        "id": "kdkmglq1",
+        "abbreviation": "ticket_to_ride",
+        "IRL%": {
+            "id": "5dwxjwe2",
+            "name": "IRL%",
+            "weblink": "https://www.speedrun.com/ticket_to_ride#IRL",
+            "type": "per-game",
+            "rules": "Speedrun an IRL board of Ticket to Ride",
+            "players": {
+                "type": "exactly",
+                "value": 5
+            },
+            "miscellaneous": true,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/5dwxjwe2"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/kdkmglq1"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/5dwxjwe2/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/5dwxjwe2/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=5dwxjwe2"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/kdkmglq1/category/5dwxjwe2"
+                }
+            ]
+        }
+    },
+    {
+        "name": "UNO (GBC)",
+        "id": "m1mlep62",
+        "abbreviation": "uno_gbc",
+        "IRL%": {
+            "id": "xd1v774d",
+            "name": "IRL%",
+            "weblink": "https://www.speedrun.com/uno_gbc#IRL",
+            "type": "per-game",
+            "rules": "PLEASE NOTE: Game rules do not apply in this category\r\n\r\nWin a game of Uno in real life\r\n\r\n- Game must be played with a standard 108 card Uno deck. The use of \"Wild Shuffle Hands Card\" and \"Wild Customizable Card\" are banned.\r\n\r\n- While not required, a timer visible in your submission video would make things simpler for both me and you\r\n\r\n- Timing starts when the deck is picked up to be shuffled and ends when the last card is played.\r\n\r\n- Stacking of +2 and +4 cards are not allowed as you can't do this in Uno (GBC).",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": true,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/xd1v774d"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/m1mlep62"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/xd1v774d/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/xd1v774d/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=xd1v774d"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/m1mlep62/category/xd1v774d"
+                }
+            ]
+        }
+    },
+    {
+        "name": "WTF: Work Time Fun",
+        "id": "268wwoo6",
+        "abbreviation": "wtf",
+        "IRL": {
+            "id": "xd1wx082",
+            "name": "IRL",
+            "weblink": "https://www.speedrun.com/wtf#IRL",
+            "type": "per-game",
+            "rules": "In Real Life.",
+            "players": {
+                "type": "exactly",
+                "value": 1
+            },
+            "miscellaneous": true,
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "https://www.speedrun.com/api/v1/categories/xd1wx082"
+                },
+                {
+                    "rel": "game",
+                    "uri": "https://www.speedrun.com/api/v1/games/268wwoo6"
+                },
+                {
+                    "rel": "variables",
+                    "uri": "https://www.speedrun.com/api/v1/categories/xd1wx082/variables"
+                },
+                {
+                    "rel": "records",
+                    "uri": "https://www.speedrun.com/api/v1/categories/xd1wx082/records"
+                },
+                {
+                    "rel": "runs",
+                    "uri": "https://www.speedrun.com/api/v1/runs?category=xd1wx082"
+                },
+                {
+                    "rel": "leaderboard",
+                    "uri": "https://www.speedrun.com/api/v1/leaderboards/268wwoo6/category/xd1wx082"
+                }
+            ]
+        }
+    }
+]
