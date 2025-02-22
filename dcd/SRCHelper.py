@@ -56,6 +56,8 @@ def get_user(user_id):
 def post_run():
     return f'https://www.speedrun.com/api/v1/runs/'
 
+def delete_run(run_id):
+    return f'https://www.speedrun.com/api/v1/runs/{run_id}'
 
 def get_level(level_id):
     return f'https://www.speedrun.com/api/v1/levels/{level_id}'
