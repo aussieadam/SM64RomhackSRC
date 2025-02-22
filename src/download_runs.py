@@ -67,10 +67,9 @@ def upload_video(youtube,run, video):
 
 def download_video(run):
     ydl_options = {
-        'format': 'worstvideo*/worstaudio*',
+        'format': 'worstvideo*',
         'outtmpl': 'videos/%(title)s.%(ext)s',
         'noplaylist': True,
-        'concurrent-fragments': 10,
         'concurrent_fragment_downloads': 10,
         'verbose': True,  # for debugging stuff
         'sleep-interval': 5,  # so i dont get insta blacklisted by twitch
@@ -81,8 +80,7 @@ def download_video(run):
     run_url = run['videos']['links'][0]['uri']
     with yt_dlp.YoutubeDL(ydl_options) as ydl:
         try:
-            ydl.download(run_url)
-            file_name = ydl.extract_info(run_url)['requested_downloads'][0]['_filename']
+            file_name = ydl.extract_info(run_url,download=True)['requested_downloads'][0]['_filename']
             print(file_name)
             ydl.close()
             return file_name
@@ -101,22 +99,28 @@ def download_video(run):
 
 if __name__ == "__main__":
     youtube = authenticate_youtube()
-
+    print(youtube)
     with open(wrs_file) as json_data:
         d = json.load(json_data)
 
     i = 0
     for row in d:
+        print(f'iteration {i} of {len(d)}')
         if 'uploaded-to' in row:
             i = i+1
             continue
         print(row)
-        file = download_video(row)
-        print('download complete')
+        #skip long files (above 10 hours), youtube can't process
+        if row['times']['primary_t'] >= 36000:
+            file = None
+            print('file too long, skipping download')
+        else:
+            file = download_video(row)
+            print('download complete')
         res = None
         if file is not None:
+            print('begin upload')
             res = upload_video(youtube, row, file)
-            print(res)
             d[i]['uploaded-to'] = f"youtube.com/{res['id']}"
             os.remove(file)
         else:
