@@ -105,6 +105,7 @@ if __name__ == "__main__":
 
     i = 0
     for row in d:
+        too_long = False
         print(f'iteration {i} of {len(d)}')
         if 'uploaded-to' in row:
             i = i+1
@@ -113,6 +114,7 @@ if __name__ == "__main__":
         #skip long files (above 10 hours), youtube can't process
         if row['times']['primary_t'] >= 36000:
             file = None
+            too_long = True
             print('file too long, skipping download')
         else:
             file = download_video(row)
@@ -124,7 +126,10 @@ if __name__ == "__main__":
             d[i]['uploaded-to'] = f"https://youtube.com/watch?v={res['id']}"
             os.remove(file)
         else:
-            d[i]['uploaded-to'] = 'does not exist'
+            if too_long:
+                d[i]['uploaded-to'] = 'video too long'
+            else:
+                d[i]['uploaded-to'] = 'original vod missing'
 
         with open(wrs_file, 'w') as f:
             json.dump(d, f)

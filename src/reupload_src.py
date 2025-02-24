@@ -30,7 +30,7 @@ if __name__ == '__main__':
         platform_id = run['system']['platform']
         run_date = run['date']
         #skip runs by these people, and ones we have already reuploaded
-        if user_id not in ['68wzrnv8'] or video_link == 'does not exist' or 'reupload-status' in run:
+        if user_id not in ['68wzrnv8'] or video_link in ['does not exist','original vod missing','video too long'] or 'reupload-status' in run:
             continue
         print(run)
         unverify_url = srcHelper.unverify_run(run_id)
