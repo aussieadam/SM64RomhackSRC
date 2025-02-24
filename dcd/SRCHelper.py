@@ -182,7 +182,10 @@ def request_src(url):
         # print(f"attempt: {err_cnt}")
         try:
             resp = requests.get(url, headers=_h)
-            request_finished = True
+            #503 is temporary unavailable
+            if resp.status_code != 503:
+                request_finished = True
+            err_cnt +=1
             # print("request finished")
         except requests.exceptions.RequestException as e:  # This is the correct syntax
             print(f"Error Getting Response from {url}")

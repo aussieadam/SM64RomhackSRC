@@ -1,0 +1,68 @@
+[
+  {
+        "name": "Super Mario 64: The Green Stars",
+        "nickname": "sm64tgs",
+        "id": "o6gwjn12",
+        "abbreviation": "sm64tgs",
+        "categories": [
+          { "name":"131 Star (v3.4)",
+        "id":  "02qxxz7k",
+        "sheet": "Category 1 Board",
+            "column": "D"
+
+      },
+          { "name":"81 Star (v3.4)",
+        "id":  "824oo4ed",
+        "sheet": "Category 2 Board",
+            "column": "E"
+      },
+         { "name":"1 Star (v3.4)",
+        "id":  "9d8ww9wd",
+        "sheet": "Category 3 Board",
+            "column": "F"
+      }
+        ]
+    },
+  {
+    "name": "Ztar Attack Rebooted",
+    "id": "9downp31",
+    "nickname": "ZAR",
+    "abbreviation": "zar",
+    "categories": [
+      { "name":"96 Ztar",
+        "id": "wkpm0o0k",
+        "sheet": "Category 4 Board",
+            "column": "G"
+      },
+      { "name":"170 Ztar",
+        "id": "7dg40rxd",
+        "sheet": "Category 5 Board",
+            "column": "H"
+      },
+      { "name":"12 Ztar",
+        "id": "8241j6w2",
+        "sheet": "Category 6 Board",
+            "column": "I"
+      }
+    ]
+  },
+  {
+        "name": "Mario's New Earth",
+        "id": "ldejz751",
+        "nickname": "MNE",
+        "abbreviation": "marios_new_earth",
+        "categories": [
+            { "name":"125 Star",
+              "id": "wkp5lewd",
+              "sheet": "Category 7 Board",
+            "column": "J"
+            },
+      { "name":"70 Star",
+        "id": "vdo5vgvk",
+        "sheet": "Category 8 Board",
+            "column": "K"
+      }
+            ]
+        }
+
+]

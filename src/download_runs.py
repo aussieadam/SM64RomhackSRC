@@ -9,7 +9,7 @@ import googleapiclient.http
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
 TOKEN_FILE = 'token.json'
-wrs_file = 'wr_runs.json'
+wrs_file = 'wr_ss_runs.json'
 
 
 def authenticate_youtube():
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     i = 0
     for row in d:
         too_long = False
-        print(f'iteration {i} of {len(d)}')
+        print(f'iteration {i} of {len(d)-1}')
         if 'uploaded-to' in row:
             i = i+1
             continue

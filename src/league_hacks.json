@@ -1,0 +1,70 @@
+[
+  {
+        "name": "SM64: Decades Later",
+        "id": "kdkqrl2d",
+        "abbreviation": "SM64_Decades_Later",
+        "categories": [
+          { "name":"150 Star",
+            "id":  "9kv1543k",
+            "sheet": "Category 1 Board",
+            "column": "D"
+
+      },
+          { "name":"All Blue Stars",
+        "id":  "zd3zn3ek",
+        "sheet": "Category 2 Board",
+            "column": "E"
+      },
+         { "name":"80 Star",
+        "id":  "9d8z1mwd",
+        "sheet": "Category 3 Board",
+            "column": "F"
+      }
+        ]
+    },
+  {
+    "name": "Ztar Attack 2: A Blast to the Past",
+    "id": "3dx25pp1",
+    "abbreviation": "za2abttp",
+    "categories": [
+      { "name":"90 Star",
+        "id": "zdn13jqk",
+        "sheet": "Category 4 Board",
+            "column": "G"
+      },
+      { "name":"Any% Warpless",
+        "id": "xk9n64y2",
+        "sheet": "Category 5 Board",
+            "column": "H"
+      },
+      { "name":"Any%",
+        "id": "7kjqynxd",
+        "sheet": "Category 6 Board",
+            "column": "I"
+      }
+    ]
+  },
+  {
+        "name": "Eureka",
+        "id": "pdv9pzr1",
+        "abbreviation": "Eureka",
+        "categories": [
+            { "name":"100 Star",
+              "id": "ndxqm01k",
+              "sheet": "Category 7 Board",
+            "column": "J"
+            },
+      { "name":"60 Star",
+        "id": "w20ow5v2",
+        "sheet": "Category 8 Board",
+            "column": "K"
+      },
+          { "name":"5 Star",
+        "id": "vdo7on12",
+        "sheet": "Category 9 Board",
+            "column": "L"
+      }
+            ]
+        }
+
+]
