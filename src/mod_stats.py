@@ -6,7 +6,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-
 def get_new_runs(since_date, to_date):
     hacks = json.load(open('hacks.json'))
     runs = []
@@ -39,6 +38,7 @@ def get_new_runs(since_date, to_date):
                         url = page['uri']
     return runs
 
+
 def get_examiner_names():
     runs = json.load(open('last_years_runs.json'))
     print(runs)
@@ -51,9 +51,8 @@ def get_examiner_names():
             mods[mod] = res["names"]['international']
     print(mods)
 
+
 if __name__ == '__main__':
-
-
     since_date = '2023-01-01T00:00:00Z'
     to_date = '2024-01-01T00:00:00Z'
     runs = get_new_runs(since_date, to_date)
@@ -70,4 +69,3 @@ if __name__ == '__main__':
     plt.show()
     game_df.plot.bar(subplots=True, figsize=(8, 3))
     plt.show()
-

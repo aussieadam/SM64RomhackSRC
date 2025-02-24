@@ -1,26 +1,29 @@
+import os
+
+from discord import SyncWebhook,Embed
+from dotenv import load_dotenv
 import requests
 import time
+import json
 from datetime import datetime as dt, timedelta as td
 
 # stole these from firefox, default headers were redirecting too many times
 _HEADERS = {
-    'Host': 'www.speedrun.com',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0',
-    'Upgrade-Insecure-Requests': '1',
-    'TE': 'trailers',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-    'Accept-Language': 'en-US,en;q=0.5',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Connection': 'keep-alive',
-    'Sec-Fetch-Dest': 'document',
-    'Sec-Fetch-Mode': 'navigate',
-    'Sec-Fetch-Site': 'none'
+    'Cache-Control': 'no-cache',
+    'Pragma': 'no-cache',
+    'User-Agent': 'romhack-wrs/1.0',
+    'Accept': '*/*',
 }
 _h = dict(_HEADERS)
-_sleep_period = .75
+_sleep_period = .60
 _retry_sleep = 30
 start_time = dt.today()
 
+load_dotenv()
+MY_WEBHOOK_URL = os.getenv('MY_WEBHOOK_URL')
+WEBHOOK_URL = os.getenv('WEBHOOK_URL')
+
+wrs = []
 
 
 def request_src(request_url):
@@ -59,11 +62,34 @@ def request_src(request_url):
     else:
         return None
 
+def post_runs():
+    if wrs:
+        webhook = SyncWebhook.from_url(WEBHOOK_URL)
+        my_webhook = SyncWebhook.from_url(MY_WEBHOOK_URL)
+        embeds = []
+        webhook.send("Congratulations to the following runners for Fullgame WR's in the last week:")
+        my_webhook.send("Congratulations to the following runners for Fullgame WR's in the last week:")
+        for wr in wrs:
+            embed = Embed(title=f"{wr['game']} : {wr['category']} in {wr['time']}",url=wr['run_link'])
+            embed.add_field(name="Player",value=wr['player'],inline=False)
+            if "image" in wr and wr['image'] is not None:
+                embed.set_thumbnail(url=wr['image'])
+            if "youtube_link" in wr and wr['youtube_link'] is not None:
+                embed.add_field(name="Youtube",value=f"[{wr['player']} Youtube]({wr['youtube_link']})",inline=True)
+            if "twitch_link" in wr and wr['twitch_link'] is not None:
+                embed.add_field(name="Twitch", value=f"[{wr['player']} Twitch]({wr['twitch_link']})", inline=True)
+            if "twitter_link" in wr and wr['twitter_link'] is not None:
+                embed.add_field(name="Twitter", value=f"[{wr['player']} Twitter]({wr['twitter_link']})", inline=True)
+            embeds.append(embed)
+            if len(embeds) == 10:
+                webhook.send(embeds=embeds)
+                my_webhook.send(embeds=embeds)
+                embeds = []
+        if len(embeds) >0:
+            webhook.send(embeds=embeds)
+            my_webhook.send(embeds=embeds)
 
-if __name__ == '__main__':
-    job_start_time = time.time()
-    wrs = []
-    # hacks string
+def lambda_handler(event, context):
     url = f'https://www.speedrun.com/api/v1/series/0499o64v/games?max=200&embed=categories'
     while url is not None:
         res = request_src(url)
@@ -106,7 +132,7 @@ if __name__ == '__main__':
                         if user_res['twitch']:
                             wr_json['twitch_link'] = user_res['twitch']['uri']
                         if user_res['twitter']:
-                            wr_json['twitter_link'] = user_res['twitch']['uri']
+                            wr_json['twitter_link'] = user_res['twitter']['uri']
                         if user_res['assets']:
                             if user_res['assets']['image']['uri'] is not None:
                                 wr_json['image'] = user_res['assets']['image']['uri']
@@ -119,10 +145,11 @@ if __name__ == '__main__':
             if page['rel'] == 'next':
                 url = page['uri']
 
-    if wrs:
-        message = "Congratulations to the following runners for Fullgame WR's in the last week:"
-        for wr in wrs:
-            message = message + f"\n {wr['player']} With a time of {wr['time']} in: {wr['game']} : {wr['category']}"
-        print(message)
+    post_runs()
+    return {
+        'statusCode': 200,
+        'body': 'Run Complete'
+    }
 
-    print(f"---{time.time() - job_start_time} seconds ---")
+# if __name__ == "__main__":
+   # lambda_handler(1,1)

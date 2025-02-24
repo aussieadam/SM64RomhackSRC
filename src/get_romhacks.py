@@ -17,14 +17,12 @@ if __name__ == '__main__':
             # moderator check to make sure we are all on every game
             if 'v8lyv4jm' not in game['moderators']:
                 print(f"{game['abbreviation']} is missing MarvJungs")
-            if '18v52d5j' not in game['moderators']:
-                print(f"{game['abbreviation']} is missing Spaceman")
+            if 'qxkrpqm8' not in game['moderators']:
+                print(f"{game['abbreviation']} is missing Dackage")
             if 'pj0n70m8' not in game['moderators']:
                 print(f"{game['abbreviation']} is missing FrostyZako")
             if 'qjopronx' not in game['moderators']:
                 print(f"{game['abbreviation']} is missing Tomatobird8")
-            if 'qxkm6d2j' not in game['moderators']:
-                print(f"{game['abbreviation']} is missing sizzlingmario4")
             if 'zxzlkr08' not in game['moderators']:
                 print(f"{game['abbreviation']} is missing AndrewSM64")
             if 'v8lk144x' not in game['moderators']:

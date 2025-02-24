@@ -255,6 +255,7 @@ def update_leaderboard(doc, spreadsheet_id, parts, parts_range):
                     category_boards[iter + 1][str(name).lower()] = part[iter + 3]
                 iter = iter + 1
 
+    print(category_boards)
     data_range = 'A2:B200'
 
     batch_update_body = {
@@ -290,8 +291,10 @@ def update_leaderboard(doc, spreadsheet_id, parts, parts_range):
             team = data[2].strip()
             if team is None or team == '':
                 team = 'undrafted'
-            score = data[11]
+            #data[12] should match the score (so score -1 column)
+            score = data[12] if data[12] != '' else 0
             user = data[1]
+            print(score)
             user_points = {
                 "user": str(user),
                 "team": team,
@@ -369,7 +372,7 @@ def update_discord(boards):
 
     user_rank_cnt = 1
     for user in user_boards:
-        if user_rank_cnt > 30:
+        if user_rank_cnt > 25:
             break
         user_body.append([user_rank_cnt, user['team'], user['user'], user['score']])
         user_rank_cnt = user_rank_cnt + 1
@@ -420,11 +423,13 @@ def edit_leaderboards(boards):
     fantasy_discord_leaderboard = boards[2]
 
     webhook = SyncWebhook.from_url(WEBHOOK_URL)
-    # webhook.send(content=f"```\n{team_discord_leaderboard}\n```" + "\n" + f"last updated: <t:{int(time.time())}:f>")
+    #webhook.send(content=f"```\n{team_discord_leaderboard}\n```" + "\n" + f"last updated: <t:{int(time.time())}:f>")
 
-    webhook.edit_message(message_id=1149431650569179306, content=f"```\n{fantasy_discord_leaderboard}\n```")
-    webhook.edit_message(message_id=1149431651642916954, content=f"```\n{user_discord_leaderboard}\n```")
-    webhook.edit_message(message_id=1153391722055872573,
+
+
+    webhook.edit_message(message_id=1283814887952486535, content=f"```\n{fantasy_discord_leaderboard}\n```")
+    webhook.edit_message(message_id=1283814888728301670, content=f"```\n{user_discord_leaderboard}\n```")
+    webhook.edit_message(message_id=1283814890066415647,
                          content=f"```\n{team_discord_leaderboard}\n```" + "\n" + f"last updated: <t:{int(time.time())}:f>")
 
     my_webhook = SyncWebhook.from_url(MY_WEBHOOK_URL)
@@ -483,6 +488,6 @@ def lambda_handler(event, context):
         'body': 'Run Complete'
     }
 
-#
-# if __name__ == '__main__':
-#     print(lambda_handler(1, 2))
+
+if __name__ == '__main__':
+    print(lambda_handler(1, 2))

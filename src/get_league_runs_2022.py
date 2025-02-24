@@ -25,7 +25,7 @@ _retry_sleep = 30
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 SERVICE_ACCOUNT_FILE = 'credentials.json'
-LEAGUE_HACKS_FILE = 'league_hacks.json'
+LEAGUE_HACKS_FILE = 'league_hacks_2023.json'
 load_dotenv()
 SPREADSHEET_ID = os.getenv('SPREADSHEET_ID')
 WEBHOOK_URL = os.getenv('WEBHOOK_URL')

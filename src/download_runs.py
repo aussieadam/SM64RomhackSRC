@@ -121,7 +121,7 @@ if __name__ == "__main__":
         if file is not None:
             print('begin upload')
             res = upload_video(youtube, row, file)
-            d[i]['uploaded-to'] = f"youtube.com/{res['id']}"
+            d[i]['uploaded-to'] = f"https://youtube.com/watch?v={res['id']}"
             os.remove(file)
         else:
             d[i]['uploaded-to'] = 'does not exist'

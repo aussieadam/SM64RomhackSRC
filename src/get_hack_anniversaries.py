@@ -72,6 +72,12 @@ def get_anniversaries(doc, spreadsheet_id, hack_list_range):
 def post_anniversaries(hack_list):
     webhook = SyncWebhook.from_url(WEBHOOK_URL)
     my_webhook = SyncWebhook.from_url(MY_WEBHOOK_URL)
+
+    # webhook.edit_message(message_id=1313127604399767604,
+    #                      content=f":cake: **Sunshine Secret Book 64** by Dorrieal was released on this day, 5 years ago!\nhttps://romhacking.com/hack/sunshine-secret-book-64")
+    # my_webhook.edit_message(message_id=1313127599349960766,
+    #                         content=f":cake: **Sunshine Secret Book 64** by Dorrieal was released on this day, 5 years ago!\nhttps://romhacking.com/hack/sunshine-secret-book-64")
+
     for hack in hack_list:
         message = f":cake: **{hack['hack_name']}** by {hack['authors']} was released on this day, {hack['year_diff']} years ago!"
         print(hack['hyperlink'])
@@ -79,12 +85,12 @@ def post_anniversaries(hack_list):
             message = message + f"\n{hack['hyperlink']}"
         my_message = my_webhook.send(content=message)
         message = webhook.send(content=message)
+
         my_message.publish()
         message.publish()
 
 
 def lambda_handler(event, context):
-    # if __name__ == '__main__':
     creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
     service = build('sheets', 'v4', credentials=creds)
     document = service.spreadsheets()
@@ -101,3 +107,7 @@ def lambda_handler(event, context):
             'statusCode': 200,
             'body': 'Run Complete'
         }
+
+
+if __name__ == '__main__':
+    print(lambda_handler(1, 2))

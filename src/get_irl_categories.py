@@ -28,7 +28,7 @@ if __name__ == '__main__':
                     game_json[cat_name] = category
                     has_cat = True
             if has_cat:
-                #print(game_json)
+                print(game_json)
                 irl_games.append(game_json)
         url = None
         for page in res['pagination']['links']:
